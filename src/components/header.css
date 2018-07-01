@@ -1,0 +1,35 @@
+.paleGreen{
+    background-color: #17e178;
+}
+.paleGreenBorder{
+    border:2px solid #1cb86a;
+}
+
+.wrapper{
+    width:100%;
+    max-width:960px;
+    margin: 0 auto;
+}
+#header{
+    display: flex;
+}
+#header>div{
+    width: 50px;
+    height: 40px;
+    background: yellow;
+    flex: none;
+    margin: 0 50px 0 0;
+}
+menu{
+    flex:1;
+    
+}
+menu ul{
+    display: flex;
+    -webkit-justify-content: flex-end; /* Safari */
+  justify-content:         flex-end;
+}
+menu ul li{
+  list-style: none;
+  padding-left: 80px;
+}

@@ -1,15 +1,8 @@
-import React from 'react';
-const divStyle = {
-    margin: '0 auto',
-    padding: '0px',
-    width: '100%',
-    maxWidth:'960px',
-  };
-  
+import React from 'react';  
 class Header extends React.Component {
     render() {
-        return (<div>
-            <div id="header" style={divStyle}>
+        return (<div className="paleGreen paleGreenBorder">
+            <div id="header" className="wrapper">
                 <div>Logo</div>
                 <menu>
                     <ul>
