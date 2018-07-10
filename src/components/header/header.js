@@ -6,10 +6,10 @@ class Header extends React.Component {
                 <div>Logo</div>
                 <menu>
                     <ul>
-                            <li>Sign In</li>
-                            <li>Sign Up</li>
-                            <li>Status</li>
-                            <li>Cart</li>
+                            <li>SIGN IN</li>
+                            <li>SIGN UP</li>
+                            <li>STATUS</li>
+                            <li>CART</li>
                     </ul>
 
                 </menu>

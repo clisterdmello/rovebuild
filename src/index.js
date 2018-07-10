@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Header from './components/Header';
-import './components/header.css';
+import Header from './components/header/Header';
+import './components/header/header.css';
 const Index = () => {
   return (<div>
     <Header/>
-    <div>Main Content</div>
+    <MainContent/>
   </div>);
 };
 
