@@ -3,7 +3,7 @@ class Header extends React.Component {
     render() {
         return (<div className="paleGreen paleGreenBorder">
             <div id="header" className="wrapper">
-                <div>Logo</div>
+                <div className="logo"></div>
                 <menu>
                     <ul>
                             <li>SIGN IN</li>

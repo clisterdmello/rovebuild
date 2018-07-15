@@ -4,7 +4,6 @@
 .paleGreenBorder{
     border:2px solid #1cb86a;
 }
-
 .wrapper{
     width:100%;
     max-width:960px;
@@ -13,22 +12,69 @@
 #header{
     display: flex;
 }
-#header>div{
-    width: 50px;
+#header>div.logo{
+    width: 204px;
     height: 40px;
-    background: yellow;
     flex: none;
-    margin: 0 50px 0 0;
+    margin: 12px 0;
+    background-image:url('../../assets/logo.png');
+    background-repeat: no-repeat;
 }
 menu{
     flex:1;    
 }
 menu ul{
-    display: flex;
-    -webkit-justify-content: flex-end; /* Safari */
+  display: flex;
+  -webkit-justify-content: flex-end; /* Safari */
   justify-content:         flex-end;
+  padding-top: 10px;
 }
 menu ul li{
   list-style: none;
   padding: 10px 40px;
+}
+/*Banner Style*/
+.banner{
+    background-image:url('../../assets/homepageBanner.jpg');
+    min-height: 500px;  
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: black;
+    background-size: cover;
+}
+.packageIntro{
+    height: 300px;
+}
+/*Search Bar*/
+.searchBarContainer{
+    background: #fff;
+    border-radius: 11px;
+    overflow: hidden;
+    display: flex;
+}
+.searchBarContainer div{    
+    padding: 9px 19px;
+    width: 128px;
+    border-right: 1px solid #8c8b8b26;
+}
+.searchBarContainer div:last-child{
+    border:0px;
+}
+.searchBarContainer input{
+    width: 100%;
+    height: 20px;
+    padding: 1px 0;
+    margin-top: 4px;
+    border: 0;}
+.searchBarContainer input[type="submit"]{
+    padding: 20px;
+    margin: 0px;
+    font-size: 16px;
+    height: auto;
+    background: #17e178;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.searchBarContainer div.searchButton{
+    padding:0;
 }
