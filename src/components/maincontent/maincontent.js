@@ -1,9 +1,9 @@
 import React from 'react';  
 class MainContent extends React.Component {
     render() {
-        return (<div className="banner">
+        return (<div>
+        <div className="banner">
            <div className="wrapper packageIntro">
-               Packag Intro
             </div>
             <div>
                 <form className="wrapper searchBarContainer" method="post">
@@ -32,6 +32,21 @@ class MainContent extends React.Component {
                     </div>
                 </form>
             </div>
+            </div>
+            <div className="wrapper famousPackages">
+                <h2 className="center"><span>Famous Packages</span></h2>
+                <div className="packageContainer">
+                    <div>ITEM1</div>
+                    <div>ITEM2</div>
+                    <div>ITEM3</div>
+
+                    <div>ITEM4</div>
+                    <div>ITEM5</div>
+                    <div>ITEM6</div>                    
+                </div>
+            </div>
+            <div>About Us</div>
+            <div>Need Help</div>
         </div>)
     }
 };

@@ -1,3 +1,6 @@
+.center{
+    text-align: center;
+}
 .paleGreen{
     background-color: #17e178;
 }
@@ -36,21 +39,25 @@ menu ul li{
 /*Banner Style*/
 .banner{
     background-image:url('../../assets/homepageBanner.jpg');
-    min-height: 500px;  
+    min-height: 600px;  
     background-repeat: no-repeat;
     background-position: top center;
     background-color: black;
     background-size: cover;
 }
 .packageIntro{
-    height: 300px;
+    background-image:url('../../assets/introBanner.png');
+    height: 402px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-bottom: 19px;
 }
 /*Search Bar*/
 .searchBarContainer{
     background: #fff;
-    border-radius: 11px;
+    border-radius: 5px;
     overflow: hidden;
-    display: flex;
+    display: flex;  
 }
 .searchBarContainer div{    
     padding: 9px 19px;
@@ -78,3 +85,20 @@ menu ul li{
 .searchBarContainer div.searchButton{
     padding:0;
 }
+/* Famous Packages*/
+.famousPackages{
+    margin-top:20px;
+}
+.famousPackages span{
+    margin-bottom: 20px;   
+}
+.famousPackages span{
+    color: #676468;
+    border-bottom: 1px solid #17e178;
+    padding: 0 20% 20px 20%;
+}
+.packageContainer{
+    margin-top: 40px;
+    display: flex;
+}
+.packageContainer div{width:33%;}
