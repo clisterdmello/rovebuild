@@ -22,15 +22,20 @@ module.exports = {
         use: ['style-loader','css-loader']
       },
       {
-        test: /\.(jpg|png)$/,
+        test: /\.(jpg|png|gif|svg|pdf|ico)$/,
         use: [
-          'file-loader'
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name]-[hash:8].[ext]'
+            },
+          },
         ]
       }
     ]
   },
   devServer: {
-         contentBase: './dist'
-    },
+    contentBase: './dist'
+  },
   plugins: [htmlPlugin]
 };

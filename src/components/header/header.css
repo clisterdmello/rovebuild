@@ -1,79 +1,98 @@
-.center{
+.center {
     text-align: center;
 }
-.paleGreen{
+
+.paleGreen {
     background-color: #17e178;
 }
-.paleGreenBorder{
-    border:2px solid #1cb86a;
+
+.paleGreenBorder {
+    border: 2px solid #1cb86a;
 }
-.wrapper{
-    width:100%;
-    max-width:960px;
+
+.wrapper {
+    width: 100%;
+    max-width: 960px;
     margin: 0 auto;
 }
-#header{
+
+#header {
     display: flex;
 }
-#header>div.logo{
+
+#header>div.logo {
     width: 204px;
     height: 40px;
     flex: none;
     margin: 12px 0;
-    background-image:url('../../assets/logo.png');
+    background-image: url('../../assets/logo.png');
     background-repeat: no-repeat;
 }
-menu{
-    flex:1;    
+
+menu {
+    flex: 1;
 }
-menu ul{
-  display: flex;
-  -webkit-justify-content: flex-end; /* Safari */
-  justify-content:         flex-end;
-  padding-top: 10px;
+
+menu ul {
+    display: flex;
+    -webkit-justify-content: flex-end;
+    /* Safari */
+    justify-content: flex-end;
+    padding-top: 10px;
 }
-menu ul li{
-  list-style: none;
-  padding: 10px 40px;
+
+menu ul li {
+    list-style: none;
+    padding: 10px 40px;
 }
+
 /*Banner Style*/
-.banner{
-    background-image:url('../../assets/homepageBanner.jpg');
-    min-height: 600px;  
+
+.banner {
+    background-image: url('../../assets/homepageBanner.jpg');
+    min-height: 600px;
     background-repeat: no-repeat;
     background-position: top center;
     background-color: black;
     background-size: cover;
 }
-.packageIntro{
-    background-image:url('../../assets/introBanner.png');
+
+.packageIntro {
+    background-image: url('../../assets/introBanner.png');
     height: 402px;
     background-repeat: no-repeat;
     background-position: bottom;
     margin-bottom: 19px;
 }
+
 /*Search Bar*/
-.searchBarContainer{
+
+.searchBarContainer {
     background: #fff;
     border-radius: 5px;
     overflow: hidden;
-    display: flex;  
+    display: flex;
 }
-.searchBarContainer div{    
+
+.searchBarContainer div {
     padding: 9px 19px;
     width: 128px;
     border-right: 1px solid #8c8b8b26;
 }
-.searchBarContainer div:last-child{
-    border:0px;
+
+.searchBarContainer div:last-child {
+    border: 0px;
 }
-.searchBarContainer input{
+
+.searchBarContainer input {
     width: 100%;
     height: 20px;
     padding: 1px 0;
     margin-top: 4px;
-    border: 0;}
-.searchBarContainer input[type="submit"]{
+    border: 0;
+}
+
+.searchBarContainer input[type="submit"] {
     padding: 20px;
     margin: 0px;
     font-size: 16px;
@@ -82,23 +101,86 @@ menu ul li{
     border: 2px solid transparent;
     cursor: pointer;
 }
-.searchBarContainer div.searchButton{
-    padding:0;
+
+.searchBarContainer div.searchButton {
+    padding: 0;
 }
+
 /* Famous Packages*/
-.famousPackages{
-    margin-top:20px;
+
+.famousPackages {
+    margin-top: 20px;
 }
-.famousPackages span{
-    margin-bottom: 20px;   
-}
-.famousPackages span{
+
+.famousPackages span.borderBtm {
     color: #676468;
     border-bottom: 1px solid #17e178;
     padding: 0 20% 20px 20%;
+    margin-bottom: 20px;
 }
-.packageContainer{
+
+.packageContainer {
     margin-top: 40px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.packageContainer div{width:33%;}
+
+.packageContainer div span {
+    display: block;
+    position: relative;
+    top: -63px;
+    background: #673AB7;
+    padding: 8px;
+    padding-bottom: 4px;
+    color: #fff;
+}
+
+/*About us Section*/
+
+#aboutUs {
+    background-color: #3e4245;
+    padding-top: 30px;
+}
+
+#aboutUs span.borderBtm {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 0 20% 20px 20%;
+    margin-bottom: 20px;
+}
+
+.aboutUsDesc {
+    display: flex;
+    margin-top: 20px;
+}
+.aboutUsDesc div {
+    text-align: justify;
+    justify-content: space-between;
+    width: 40%;
+    padding: 5%;
+    color: #fff;
+}
+/*Need Help*/
+#needHelp {
+    padding-top: 30px;
+}
+
+#needHelp span.borderBtm {
+    color: #000;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20% 20px 20%;
+    margin-bottom: 20px;
+}
+#needHelp form input{
+    padding: 8px 18px;
+    margin: 42px 22px 0 32px;
+}
+#needHelp address{
+    display: flex;
+    width: 575px;
+    margin: 30px auto;
+}
+#needHelp address   div{
+    flex:1;
+}
