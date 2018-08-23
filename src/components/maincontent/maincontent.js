@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../../assets/bestpackage1.jpg';
+
 class MainContent extends React.Component {
     render() {
         return (<div>

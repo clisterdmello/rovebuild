@@ -35,6 +35,7 @@ module.exports = {
     ]
   },
   devServer: {
+    historyApiFallback: false,
     contentBase: './dist'
   },
   plugins: [htmlPlugin]
