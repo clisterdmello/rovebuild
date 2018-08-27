@@ -3,7 +3,7 @@
 }
 
 .paleGreen {
-    background-color: #17e178;
+    background-color: #26bb4d;
 }
 
 .paleGreenBorder {
@@ -28,6 +28,9 @@
     background-image: url('../../assets/logo.png');
     background-repeat: no-repeat;
 }
+.headerCart{
+  margin-top:-10px;
+}
 
 menu {
     flex: 1;
@@ -45,9 +48,12 @@ menu ul li {
     list-style: none;
     padding: 10px 40px;
 }
-
-/*Banner Style*/
-
+menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+menu ul li a:hover{color:#000;}
+/* Banner Style */
 .banner {
     background-image: url('../../assets/homepageBanner.jpg');
     min-height: 600px;
@@ -207,23 +213,26 @@ menu ul li {
     min-height: 100px;
     border-radius: 5px;
 }
+.resultCount{    padding: 16px;}
 
 .searchResultListing {
     margin: 0 2%;
     padding: 20px 0;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom:20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    
 }
-
 .searchListElement {
-    width: 33.33%;
+    width: 270px;
     margin-bottom: 30px;
+    background-color: #ececec;
+    border-radius: 4px;
 }
 
 .searchListElement .likeAndCart{
     width: 20%;
-    background: red;
     display: block;
     float: left;
 }

@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import CartImage from '../../assets/cart.png';
+
 class Header extends React.Component {
     render() {
         return (<div className="paleGreen paleGreenBorder">
@@ -7,11 +9,10 @@ class Header extends React.Component {
                 <div className="logo"></div>
                 <menu>
                     <ul>
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/signin'>SIGN IN</Link></li>
-                        <li><Link to='/signup'>SIGN UP</Link></li>
-                        <li><Link to='/tripstatus'>STATUS</Link></li>
-                        <li><Link to='/results'>Cart</Link></li>
+                        <li><Link to='/'>HOME</Link></li>
+                        <li><Link to='/signin'>LOGIN &amp; SIGNUP</Link></li>
+                        <li><Link to='/tripstatus'>STATUS</Link></li>                        
+                        <li><Link to='/results'><img src={CartImage} className="headerCart" /></Link></li>
                     </ul>
 
                 </menu>

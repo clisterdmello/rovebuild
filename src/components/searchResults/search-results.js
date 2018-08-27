@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import Banner from '../../assets/bestpackage1.jpg';
+import likes from '../../assets/likes.png';
+
 
 class SearchResults extends React.Component {
     render() {
@@ -36,11 +38,42 @@ class SearchResults extends React.Component {
 
             <div className="wrapper searchResults">
 
-                <div>Total 12 search results </div>
-
+                <div className="resultCount">Total 12 search results </div>
 
                 <div className="searchResultListing">
+                    <div className="searchListElement">
+                        <div className="likeAndCart">
+                            <p>
+                                <img src={likes} />
+                                (200)
+                            </p>
+                            <p>Cart</p>
+                        </div>
+                        <div className="packageDetails">
+                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
+                            <p>
+                                <span>Slot Booking</span>
+                                <span>Book Now</span>
+                            </p>
+                        </div>
+                    </div>
 
+                    <div className="searchListElement">
+                        <div className="likeAndCart">
+                            <p className="center">
+                                <img src={likes} />
+                                (200)
+                            </p>
+                            <p>Cart</p>
+                        </div>
+                        <div className="packageDetails">
+                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
+                            <p>
+                                <span>Slot Booking</span>
+                                <span>Book Now</span>
+                            </p>
+                        </div>
+                    </div>
 
                     <div className="searchListElement">
                         <div className="likeAndCart">
@@ -56,34 +89,6 @@ class SearchResults extends React.Component {
                         </div>
                     </div>
 
-                     <div className="searchListElement">
-                        <div className="likeAndCart">
-                            <span>Like</span>
-                            <span>Cart</span>
-                        </div>
-                        <div className="packageDetails">
-                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
-                            <p>
-                                <span>Slot Booking</span>
-                                <span>Book Now</span>
-                            </p>
-                        </div>
-                    </div>
-
-                     <div className="searchListElement">
-                        <div className="likeAndCart">
-                            <span>Like</span>
-                            <span>Cart</span>
-                        </div>
-                        <div className="packageDetails">
-                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
-                            <p>
-                                <span>Slot Booking</span>
-                                <span>Book Now</span>
-                            </p>
-                        </div>
-                    </div>
-
                     <div className="searchListElement">
                         <div className="likeAndCart">
                             <span>Like</span>
@@ -98,7 +103,7 @@ class SearchResults extends React.Component {
                         </div>
                     </div>
 
-                     <div className="searchListElement">
+                    <div className="searchListElement">
                         <div className="likeAndCart">
                             <span>Like</span>
                             <span>Cart</span>
