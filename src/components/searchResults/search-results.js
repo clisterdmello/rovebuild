@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import Banner from '../../assets/bestpackage1.jpg';
 import likes from '../../assets/likes.png';
-
+import cart from '../../assets/searchListCart.png';
 
 class SearchResults extends React.Component {
     render() {
@@ -45,13 +45,15 @@ class SearchResults extends React.Component {
                         <div className="likeAndCart">
                             <p>
                                 <img src={likes} />
-                                (200)
+                                200
                             </p>
-                            <p>Cart</p>
+                            <p>
+                                <img src={cart} />
+                            </p>
                         </div>
                         <div className="packageDetails">
-                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
-                            <p>
+                            <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
+                            <p className="booking">
                                 <span>Slot Booking</span>
                                 <span>Book Now</span>
                             </p>
@@ -60,57 +62,89 @@ class SearchResults extends React.Component {
 
                     <div className="searchListElement">
                         <div className="likeAndCart">
-                            <p className="center">
+                            <p>
                                 <img src={likes} />
-                                (200)
+                                200
                             </p>
-                            <p>Cart</p>
+                            <p>
+                                <img src={cart} />
+                            </p>
                         </div>
                         <div className="packageDetails">
-                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
-                            <p>
+                            <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
+                            <p className="booking">
                                 <span>Slot Booking</span>
                                 <span>Book Now</span>
                             </p>
                         </div>
                     </div>
-
                     <div className="searchListElement">
                         <div className="likeAndCart">
-                            <span>Like</span>
-                            <span>Cart</span>
+                            <p>
+                                <img src={likes} />
+                                200
+                            </p>
+                            <p>
+                                <img src={cart} />
+                            </p>
                         </div>
                         <div className="packageDetails">
-                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
-                            <p>
+                            <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
+                            <p className="booking">
                                 <span>Slot Booking</span>
                                 <span>Book Now</span>
                             </p>
                         </div>
                     </div>
-
                     <div className="searchListElement">
                         <div className="likeAndCart">
-                            <span>Like</span>
-                            <span>Cart</span>
+                            <p>
+                                <img src={likes} />
+                                200
+                            </p>
+                            <p>
+                                <img src={cart} />
+                            </p>
                         </div>
                         <div className="packageDetails">
-                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
-                            <p>
+                            <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
+                            <p className="booking">
                                 <span>Slot Booking</span>
                                 <span>Book Now</span>
                             </p>
                         </div>
                     </div>
-
                     <div className="searchListElement">
                         <div className="likeAndCart">
-                            <span>Like</span>
-                            <span>Cart</span>
+                            <p>
+                                <img src={likes} />
+                                200
+                            </p>
+                            <p>
+                                <img src={cart} />
+                            </p>
                         </div>
                         <div className="packageDetails">
-                            <p><Link to="/detail/package-name"><img src={Banner} /></Link></p>
+                            <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
+                            <p className="booking">
+                                <span>Slot Booking</span>
+                                <span>Book Now</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="searchListElement">
+                        <div className="likeAndCart">
                             <p>
+                                <img src={likes} />
+                                200
+                            </p>
+                            <p>
+                                <img src={cart} />
+                            </p>
+                        </div>
+                        <div className="packageDetails">
+                            <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
+                            <p className="booking">
                                 <span>Slot Booking</span>
                                 <span>Book Now</span>
                             </p>
