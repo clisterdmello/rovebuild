@@ -1,13 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import Banner from '../../assets/bestpackage1.jpg';
 import likes from '../../assets/likes.png';
 import cart from '../../assets/searchListCart.png';
 
 class SearchResults extends React.Component {
     render() {
         return (<div className="banner bannerOther">
-            <div className="searchResultsBarContainer">
+            <div className="mainContentPadding">
                 <form className="wrapper searchBarContainer" method="post">
                     <div>
                         <label>Start Date</label>
@@ -51,7 +50,7 @@ class SearchResults extends React.Component {
                                 <img src={cart} />
                             </p>
                         </div>
-                        <div className="packageDetails">
+                        <div className="listedPackageDetails">
                             <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
                             <p className="booking">
                                 <span>Slot Booking</span>
@@ -70,7 +69,7 @@ class SearchResults extends React.Component {
                                 <img src={cart} />
                             </p>
                         </div>
-                        <div className="packageDetails">
+                        <div className="listedPackageDetails">
                             <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
                             <p className="booking">
                                 <span>Slot Booking</span>
@@ -88,7 +87,7 @@ class SearchResults extends React.Component {
                                 <img src={cart} />
                             </p>
                         </div>
-                        <div className="packageDetails">
+                        <div className="listedPackageDetails">
                             <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
                             <p className="booking">
                                 <span>Slot Booking</span>
@@ -106,7 +105,7 @@ class SearchResults extends React.Component {
                                 <img src={cart} />
                             </p>
                         </div>
-                        <div className="packageDetails">
+                        <div className="listedPackageDetails">
                             <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
                             <p className="booking">
                                 <span>Slot Booking</span>
@@ -124,7 +123,7 @@ class SearchResults extends React.Component {
                                 <img src={cart} />
                             </p>
                         </div>
-                        <div className="packageDetails">
+                        <div className="listedPackageDetails">
                             <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
                             <p className="booking">
                                 <span>Slot Booking</span>
@@ -142,7 +141,7 @@ class SearchResults extends React.Component {
                                 <img src={cart} />
                             </p>
                         </div>
-                        <div className="packageDetails">
+                        <div className="listedPackageDetails">
                             <p><Link to="/detail/package-name"><img src={require('../../assets/bestpackage1.jpg')} /></Link></p>
                             <p className="booking">
                                 <span>Slot Booking</span>

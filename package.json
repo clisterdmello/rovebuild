@@ -4,11 +4,11 @@
   "description": "Search app using React",
   "main": "index.js",
   "scripts": {
-    "startDev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --open",
+    "devBuild": "webpack --mode development",
+    "prodBuild": "webpack --mode production",
+    "dev": "webpack-dev-server --open",
     "watch": "webpack --watch",
-    "dev": "npm start && npm run watch"
+    "start": "npm run dev && npm run watch"
   },
   "keywords": [],
   "author": "",

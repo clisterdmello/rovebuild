@@ -11,8 +11,8 @@ class Header extends React.Component {
                     <ul>
                         <li><Link to='/'>HOME</Link></li>
                         <li><Link to='/signin'>LOGIN &amp; SIGNUP</Link></li>
-                        <li><Link to='/tripstatus'>STATUS</Link></li>                        
-                        <li><Link to='/results'><img src={CartImage} className="headerCart" /></Link></li>
+                        <li><Link to='/results'>STATUS</Link></li>                        
+                        <li><Link to='/cart'><img src={CartImage} className="headerCart" /></Link></li>
                     </ul>
 
                 </menu>

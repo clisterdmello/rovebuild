@@ -7,7 +7,7 @@ import { HashRouter } from 'react-router-dom'
 class Index extends React.Component {
   render() {
       return (
-      <HashRouter hashType="noslash">
+      <HashRouter>
         <App />
       </HashRouter>);
   }

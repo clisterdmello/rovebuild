@@ -15,7 +15,9 @@
     max-width: 960px;
     margin: 0 auto;
 }
-
+.mainContentPadding{
+    padding-top: 60px;
+}
 #header {
     display: flex;
 }
@@ -31,6 +33,9 @@
 
 .headerCart {
     margin-top: -10px;
+}
+footer{
+    min-height: 60px;
 }
 
 menu {
@@ -108,7 +113,6 @@ menu ul li a:hover {
     margin-top: 4px;
     border: 0;
 }
-
 .searchBarContainer input[type="submit"] {
     padding: 20px;
     margin: 0px;
@@ -209,11 +213,6 @@ menu ul li a:hover {
 }
 
 /*Search results*/
-
-.searchResultsBarContainer {
-    padding-top: 60px;
-}
-
 .searchResults {
     margin-top: 40px;
     background: #fff;
@@ -254,18 +253,18 @@ menu ul li a:hover {
     margin-bottom: 15px;
 }
 
-.packageDetails {
+.listedPackageDetails {
     width: 77%;
     display: inline-block;
     margin: 0 1%;
     overflow: hidden;
 }
 
-.packageDetails a {
+.listedPackageDetails a {
     display: block;
 }
 
-.packageDetails a img {
+.listedPackageDetails a img {
     display: block;
     border-radius: 7px;
     box-shadow: -4px 4px 6px 0px #888888;
@@ -287,4 +286,80 @@ menu ul li a:hover {
 .booking span:last-child {
     float: right;
     margin-right: 13px;
+}
+/*Package Details*/
+.packageDetails{
+    background-color: #fff;
+    padding: 14px 30px;
+    border-radius: 6px;
+}
+.titleDetailsPage{
+    margin: 20px 0;
+}
+.detailSectionTitle{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.detailSectionDescription{
+    font-size: 16px;
+}
+#descriptionGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#descriptionGallery img{
+    margin: 10px 0;
+}
+/*cart page*/
+.cartdetails{
+    background-color: #fff;
+    padding: 14px 30px;
+    border-radius: 6px;
+}
+.titleCartPage{
+    margin: 20px 0;
+}
+
+.orderList{
+    display: flex;
+    background: #e8e8e8;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 8px 0px;
+}
+.orderList div.cartOrderImage img{
+    width: 180px;
+    padding: 15px;
+}
+.orderList div.cartOrderDetails{
+    flex:1;
+    padding: 15px 0;
+}
+.orderList div.cartOrderDetails span{display: block;line-height:25px;}
+.orderList div.packageCost{
+    width: 14%;
+}
+#totalCost{
+    text-align: right;
+}
+
+#userDetails .Choice{
+    text-align: right;
+}
+#userDetails .Choice input{
+    padding: 5px;
+    margin-left: 26px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.signDetails{
+    text-align: right;
+}
+.signDetails> *{
+    text-align: right;
+    margin-top: 20px;
 }
