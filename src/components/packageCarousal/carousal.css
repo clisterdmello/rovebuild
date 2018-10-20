@@ -1,0 +1,22 @@
+.carousal {
+    display: flex;
+}
+
+.carousal p {
+    display: none;
+}
+
+.carousal p.active {
+    display: block;
+}
+
+.carousalBody {
+    flex: 10;
+    width: 80%;
+}
+
+.leftArrow, .rightArrow {
+    flex: 1;
+    width: 20%;
+    cursor: pointer;
+}

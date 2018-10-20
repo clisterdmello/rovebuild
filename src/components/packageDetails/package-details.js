@@ -1,12 +1,17 @@
 import React from 'react';
 
 
-class SearchResults extends React.Component {
+class PackageDetails extends React.Component {
+    constructor(){
+        super();
+    }
+    
     render() {
+       const data = this.props.match.params.userId;
         return (<div className="banner bannerOther">
             <div className="wrapper mainContentPadding ">
                 <section className="packageDetails">
-                    <h2 className="center titleDetailsPage">package details</h2>
+                    <h2 className="center titleDetailsPage">package details {data}</h2>
                     <div className="detailSectionTitle">Package Ttitle</div>
                     <div className="detailSectionDescription">Bla Bla Package</div>
 
@@ -45,18 +50,29 @@ class SearchResults extends React.Component {
                         <img src={require('../../assets/bestpackage1.jpg')} />
                     </div>
 
+                    <div className="enquireForm">
+                        <form action="">
+                        <label>Name</label>
+                        <input type="text"/>
 
+                        <label>Email</label>
+                        <input type="Email"/>
 
-
-
+                        <label>Contact</label>
+                        <input type="Email"/>
+                        
+                        <input type="Submit" value="Enquire"/>                       
+                    </form>
+                        
+                    </div>
                 </section>
                 <footer>
-
-                    lfkhklj
+                    
+                    
                 </footer>
             </div>
         </div>)
     }
 };
 
-export default SearchResults;
+export default PackageDetails;
