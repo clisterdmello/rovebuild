@@ -7,9 +7,20 @@ import { Link } from 'react-router-dom';
 
 class MainContent extends React.Component {
     componentDidUpdate() {
+       
         const { match: { path } } = this.props;
         if (path.indexOf('help') > -1) {
-            this.scrollToSpecificPoint();
+            setTimeout(()=>{
+                window.scroll(0, window.document.body.offsetHeight);
+            },1);  
+        }
+    }
+    componentDidMount(){
+        let { match: { path } } = this.props;
+        if (path.indexOf('help') > -1) {
+            setTimeout(()=>{
+                window.scroll(0, window.document.body.offsetHeight);
+            },200);            
         }
     }
     scrollToSpecificPoint() {
@@ -17,27 +28,22 @@ class MainContent extends React.Component {
     }
     render() {
         return (<div>
-            <div className="banner">
+            <div>
                 <Header />
-                <div className="wrapper">
-                    <PackageCarousal timer="3000" showArrows="true">
-                        <p ><Link to="/detail/package-name-1">
-                            <span>1</span>
-                            <img src={require('../../assets/bestpackage1.jpg')} />
-                        </Link>
-                        </p>
-                        <p ><Link to="/detail/package-name-2">
-                            <span>2</span>
-                            <img src={require('../../assets/introBanner.png')} />
-                        </Link>
-                        </p>
-                        <p ><Link to="/detail/package-name-3">
-                            <span>3</span>
-                            <img src={require('../../assets/bestpackage1.jpg')} />
-                        </Link>
-                        </p>
-                    </PackageCarousal>
-                </div>
+                <PackageCarousal timer="3000" showArrows="true">
+                    <p ><Link to="/detail/package-name-1">
+                        <img src={require('../../assets/tryme.jpg')} />
+                    </Link>
+                    </p>
+                    <p ><Link to="/detail/package-name-2">
+                        <img src={require('../../assets/homepageBanner1.jpg')} />
+                    </Link>
+                    </p>
+                    <p><Link to="/detail/package-name-3">
+                        <img src={require('../../assets/homepageBanner.jpg')} />
+                    </Link>
+                    </p>
+                </PackageCarousal>
             </div>
             <div className="wrapper famousPackages">
                 <h2 className="center"><span className="borderBtm">Famous Packages</span></h2>
@@ -122,26 +128,23 @@ class MainContent extends React.Component {
                 </div>
             </div>
             <div id="needHelp">
-                <h2 className="center"><span className="borderBtm">Need Help</span></h2>
-                <div className="wrapper">
-                    <div className="center">
-                        <form>
-                            <input type="text" placeholder="Name" />
-                            <input type="text" placeholder="Contact" />
-                            <input type="submit" value="call me" />
-                        </form>
-                        <address>
-                            <div><p>Dzukou Valley is most famous</p>
-                                <p>Dzukou Valley is most famous</p>
-                                <p>Dzukou Valley is most famous</p></div>
-                            <div>Or</div>
-                            <div><p>Dzukou Valley is most famous</p>
-                                <p>Dzukou Valley is most famous</p>
-                                <p>Dzukou Valley is most famous</p></div>
-                        </address>
-                    </div>
+                <h2 className="center"><span className="borderBtm">Contact Us</span></h2>
+                <section className="wrapper">
 
-                </div>
+                    <form>
+                        <input type="text" placeholder="Name" />
+                        <input type="text" placeholder="Contact" />
+                        <input type="submit" value="call me" />
+                    </form>
+                    <address>
+                        <p>115 , Lohar Chawl, K M Sharma Marg</p>
+                        <p>  Kalbadevi, Mumbai</p>
+                        <p> Maharashtra</p>
+
+                    </address>
+
+
+                </section>
             </div>
         </div>)
     }

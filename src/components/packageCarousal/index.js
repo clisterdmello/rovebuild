@@ -6,50 +6,61 @@ class PackageCarousal extends React.Component {
         super();
         this.counter = null;
         this.state = {
-            currentActiveIndex: 1
+            currentActiveIndex: 0
         }
-        this.slideLeft = this.slideLeft.bind(this);
-        this.slideRight = this.slideRight.bind(this);
         this.computeNextIndex = this.computeNextIndex.bind(this);
         this.initiateSlide = this.initiateSlide.bind(this);
+        this.pauseSlider = this.pauseSlider.bind(this);
     }
     componentDidMount() {
         this.initiateSlide();
     }
-    computeNextIndex() {
-        const noOfSlides = this.props.children.length;
-        const currentIndex = this.state.currentActiveIndex;
-        this.setState({
-            currentActiveIndex: (currentIndex === noOfSlides - 1) ? 0 : currentIndex + 1
-        });
+    computeNextIndex(side = 'right') {
+        
+    const noOfSlides = this.props.children.length;
+    let currentActiveIndex = this.state.currentActiveIndex;
+
+    if (side === 'left') {
+        currentActiveIndex--;        
+    } else {
+        currentActiveIndex++;        
     }
-    initiateSlide() {
+    if (currentActiveIndex === -1) {
+        currentActiveIndex = noOfSlides - 1;
+    }
+    if (currentActiveIndex === noOfSlides) {
+        currentActiveIndex = 0;
+    }
+    this.setState({currentActiveIndex});
+}
+initiateSlide() {
+    if(!this.counter){
         this.counter = setInterval(this.computeNextIndex, this.props.timer);
     }
-    slideLeft() {
-        clearInterval(this.counter);
-        this.computeNextIndex()
-        setTimeout(this.initiateSlide, this.props.timer*2);
-    }
-    slideRight() {
-        clearInterval(this.counter);
-        this.computeNextIndex()
-        setTimeout(this.initiateSlide, this.props.timer*2);
-    }
-    render() {
-        return (<div className="carousal">
-            {this.props.showArrows && <div className="leftArrow" onClick={this.slideLeft}></div>}
-            <div className="carousalBody">
-                {this.props.children.map((slide, index) => {
-                    return React.cloneElement(slide, {
-                        key: index,
-                        className: (this.state.currentActiveIndex === index) ? 'active' : ''
-                    });
-                })}
-            </div>
-            {this.props.showArrows && <div className="rightArrow" onClick={this.slideRight}></div>}
-        </div>)
-    }
+}
+slideTo(direction) {    
+    this.pauseSlider();
+    this.computeNextIndex(direction)
+    setTimeout(this.initiateSlide, this.props.timer * 2);
+}
+pauseSlider(){
+    clearInterval(this.counter);
+    this.counter = null;
+}
+render() {
+    return (<div className="carousal">
+        {this.props.showArrows && <div className="leftArrow" onClick={this.slideTo.bind(this,'left')}><span>{'<'}</span></div>}
+        {this.props.showArrows && <div className="rightArrow" onClick={this.slideTo.bind(this,'right')}><span>{'>'}</span></div>}
+        <div className="carousalBody">
+            {this.props.children.map((slide, index) => {
+                return React.cloneElement(slide, {
+                    key: index,
+                    className: (this.state.currentActiveIndex === index) ? 'active' : ''
+                });
+            })}
+        </div>
+    </div>)
+}
 };
 
 export default PackageCarousal;

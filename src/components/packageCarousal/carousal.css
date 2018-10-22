@@ -1,22 +1,35 @@
 .carousal {
-    display: flex;
-}
-
-.carousal p {
-    display: none;
-}
-
-.carousal p.active {
     display: block;
-}
-
-.carousalBody {
-    flex: 10;
-    width: 80%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
 }
 
 .leftArrow, .rightArrow {
-    flex: 1;
-    width: 20%;
+    position: absolute;
+    width: auto;
+    height: 23%;
     cursor: pointer;
+    font-size: 39px;
+    padding: 1%;
+    background: #ffffff57;
+    margin: 10% 0 0 0;
+    color: #202521;
+    border-radius: 12px 0 0 12px;
 }
+.leftArrow span, .rightArrow span{
+    position: relative;
+    top: 33%;
+    text-shadow: 1px 1px 2px #f5ffdf;
+}
+.rightArrow{right:0}
+.carousalBody {
+    display: block;
+}
+.carousalBody p {
+    display: none;
+}
+.carousalBody p.active {
+    display: block;
+}
+.carousalBody *{width:100%;}
