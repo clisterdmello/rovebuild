@@ -31,7 +31,7 @@ class MainContent extends React.Component {
             <div>
                 <Header />
                 <PackageCarousal timer="3000" showArrows="true">
-                    <p ><Link to="/detail/package-name-1">
+                    <p ><Link to="/package/meghalaya">
                         <img src={require('../../assets/tryme.jpg')} />
                     </Link>
                     </p>

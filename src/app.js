@@ -13,9 +13,9 @@ class App extends React.Component {
                     <Route exact path='/' component={MainContent} />
                     <Route exact path='/help' component={MainContent} />
                     <Route exact path='/callus' component={MainContent} />
-                    <Route path='/packages' exact component={PackageLists} />
-                    <Route path='/package/:group' component={PackageLists} />
-                    <Route path='/package/:group/:pkgid' component={PackageDetails} />
+                    <Route exact path='/packages'  component={PackageLists} />
+                    <Route exact path='/package/:group' component={PackageLists} />
+                    <Route exact path='/package/:group/:pkgid' component={PackageDetails} />
                 </Switch>
             </div>);
     }

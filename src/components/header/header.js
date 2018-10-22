@@ -15,10 +15,9 @@ class Header extends React.Component {
                                                      
                         </li>
                         <li className="helpLine helpline-body"> 
-                           <span>+91 9577565655 <br/>+91 8473065223</span>
-                                                     
+                           <span>+91 9577565655 <br/>+91 8473065223</span>                                                     
                         </li>
-                        <li><Link to='/packagelist'>List Packages</Link></li>
+                        <li><Link to='/packages'>List Packages</Link></li>
                         <li><Link to='/help'>Contact Us</Link></li>
                     </ul>
                 </menu>
