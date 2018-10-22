@@ -2,28 +2,35 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 
+const pathToPachageImages = require.context('../../assets/', true);
+// true here is for use subdirectories, you can also specify regex as third param
+
+const getCats = () => cats.map(name => `<img src='${pathToPachageImages(name, true)}' alt='${name}' />`);
+
+
+
 const packages = {
     meghalaya: [
         {
             url: '../package/meghalaya/wildcard',
-            image: 'likes.png'
+            image: './bestpackage1.jpg'
         },
         {
             url: '../package/meghalaya/trunpcad',
-            image: 'bestpackage1-52eabecb.jpg'
+            image: './bestpackage1.jpg'
         },
         {
             url: '../package/meghalaya/trunpcad',
-            image: 'bestpackage1-52eabecb.jpg'
+            image: './bestpackage1.jpg'
         }],
     arunachal: [
         {
-            url: '/detail/package-name',
-            image: '../../assets/bestpackage1.jpg'
+            url: '../package/meghalaya/wildcard',
+            image: './bestpackage1.jpg'
         },
         {
-            url: '/detail/package-name',
-            image: '../../assets/bestpackage1.jpg'
+            url: '../package/meghalaya/trunpcad',
+            image: './bestpackage1.jpg'
         }],
 };
 
@@ -43,6 +50,7 @@ class PackageLists extends React.Component {
         return finalPackages;
     }
     render() {
+        debugger;
         const pakageCategory = this.props.match.params.group || null;
         return (<div className="banner bannerOther">
             <Header />
@@ -55,11 +63,10 @@ class PackageLists extends React.Component {
                             return <div key={index} className="searchListElement">
                                 <div className="listedPackageDetails">
                                     <p><Link to={unit.url}>
-                                    <img src={require('../../assets/bestpackage1.jpg')} />
+                                    <img src={pathToPachageImages(unit.image, true)} alt={unit.url} />
                                     </Link></p>
                                 </div>
-                            </div>
-                        }
+                            </div>}
 
                         )}
 
