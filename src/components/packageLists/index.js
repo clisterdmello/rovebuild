@@ -3,11 +3,6 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 
 const pathToPachageImages = require.context('../../assets/', true);
-// true here is for use subdirectories, you can also specify regex as third param
-
-const getCats = () => cats.map(name => `<img src='${pathToPachageImages(name, true)}' alt='${name}' />`);
-
-
 
 const packages = {
     meghalaya: [
@@ -46,11 +41,9 @@ class PackageLists extends React.Component {
                 finalPackages.push(...packages[indivisualPackage])
             }
         }
-        debugger;
         return finalPackages;
     }
     render() {
-        debugger;
         const pakageCategory = this.props.match.params.group || null;
         return (<div className="banner bannerOther">
             <Header />
