@@ -13,7 +13,9 @@ class PackageCarousal extends React.Component {
         this.pauseSlider = this.pauseSlider.bind(this);
     }
     componentDidMount() {
-        this.initiateSlide();
+       if(this.props.timer>0){
+           this.initiateSlide();
+       }
     }
     computeNextIndex(side = 'right') {
         
@@ -39,9 +41,11 @@ initiateSlide() {
     }
 }
 slideTo(direction) {    
-    this.pauseSlider();
-    this.computeNextIndex(direction)
-    setTimeout(this.initiateSlide, this.props.timer * 2);
+    if(this.props.timer>0){
+        this.pauseSlider();
+        setTimeout(this.initiateSlide, this.props.timer * 2);
+    }
+    this.computeNextIndex(direction);
 }
 pauseSlider(){
     clearInterval(this.counter);

@@ -4,7 +4,7 @@ body {
 }
 
 .center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .paleGreen {
@@ -26,7 +26,7 @@ body {
     position: absolute;
     width: 100%;
     z-index: 1;
-    background:#ffffffa6;
+    background: #ffffffa6;
 }
 
 #header .logo {
@@ -65,7 +65,7 @@ menu ul li, menu ul li a {
     text-decoration: none;
     font-size: 15px;
     font-family: Century Gothic;
-    color:#081c08;
+    color: #081c08;
 }
 
 menu ul li a:hover {
@@ -358,118 +358,124 @@ menu ul li a:hover {
 /*Package Details*/
 
 .packageDetails {
-    background-color: #fff;
+    background-color: #f5f5f5;
     padding: 14px 30px;
     border-radius: 6px;
     margin-top: 60px;
 }
 
 .titleDetailsPage {
-    margin: 20px 0;
+    font-weight: lighter;
+    padding: 27px 0 0 0;
 }
 
 .detailSectionTitle {
     margin-top: 20px;
-    font-weight: bold;
     font-size: 18px;
     text-decoration: underline;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
 }
 
 .detailSectionDescription {
     font-size: 16px;
 }
 
-#descriptionGallery {
+#packageOfferings {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-#descriptionGallery img {
-    margin: 10px 0;
-}
-
-/*cart page*/
-
-.cartdetails {
-    background-color: #fff;
-    padding: 14px 30px;
-    border-radius: 6px;
-}
-
-.titleCartPage {
-    margin: 20px 0;
-}
-
-.orderList {
-    display: flex;
-    background: #e8e8e8;
-    margin-bottom: 20px;
-    border-radius: 6px;
-    padding: 8px 0px;
-}
-
-.orderList div.cartOrderImage img {
-    width: 180px;
-    padding: 15px;
-}
-
-.orderList div.cartOrderDetails {
-    flex: 1;
-    padding: 15px 0;
-}
-
-.orderList div.cartOrderDetails span {
-    display: block;
-    line-height: 25px;
-}
-
-.orderList div.packageCost {
-    width: 14%;
-}
-
-#totalCost {
-    text-align: right;
-}
-
-#userDetails .Choice {
-    text-align: right;
-}
-
-#userDetails .Choice input {
     padding: 5px;
-    margin-left: 26px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    border-top: 1px solid #eae7e7;
+    color: #378608;
+    background: #f1f1f196;
+    padding-top: 10px;
 }
 
-.signDetails {
-    text-align: right;
+#packageOfferings .fecilitypics, #packageOfferings .fecilitydetails {
+    padding: 10px;
+    width: 40%;
 }
 
-.signDetails>* {
-    text-align: right;
-    margin-top: 20px;
+#packageOfferings .fecilitypics {
+    width: 60%;
 }
 
-/*package Details*/
+.fecilitydetails h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 7px;
+    font-weight: normal;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 6px 0 9px 0;
+}
 
-.enquireForm {
+#packageOfferings .fecilitydetails table,
+#packageOfferings .fecilitydetails table tbody,
+ #packageOfferings .fecilitydetails table tr {
     display: block;
-    line-height: 40px;
-    background: #f5f5f5;
-    padding: 4%;
 }
 
-.enquireForm label {
-    margin: 0 10px;
+#packageOfferings .fecilitydetails table tr {
+    border-bottom: 1px solid #d8d8d8;
+    padding: 9px 0;
 }
 
-.enquireForm input {
-    padding: 6px;
+#packageOfferings .fecilitydetails table tr:hover {
+    background: #fdfdfd;
 }
 
-.enquireForm input[type="submit"] {
-    margin-left: 23px;
+#packageOfferings .fecilitydetails table tr:last-child {
+    border-width: 0px 0px 0px 0;
+}
+
+#packageOfferings .fecilitydetails table td {
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+    margin: 6px 0;
+}
+
+#packageOfferings .fecilitydetails table td:first-child, 
+#packageOfferings .fecilitydetails table td:last-child {
+    width: 20%;
+}
+#packageOfferings .leftArrow, #packageOfferings  .rightArrow{    
+    height: 26%;
+    font-size: 33px;
+    margin: 22% 0 0 0;
+}
+
+.fecilitydetails img {
+    width: 60px;
+}
+
+.signiningForm {
+    border-top: 1px solid #eae7e7;
+}
+
+.signiningForm table {
+    margin: 20px auto;
+}
+
+.signiningForm td {
+    text-align: left;
+    padding: 0 10px;
+    line-height: 23px;
+}
+
+.signiningForm label {
+    display: block;
+    line-height: 30px;
+}
+
+.signiningForm input {
+    padding: 4px;
+}
+
+.signiningForm input[type="submit"] {
+    padding: 5px 20px;
+    font-size: 17px;
+    margin-top: 13px;
+    background: #81e229;
+    border: 0;
+    border-radius: 2px;
 }

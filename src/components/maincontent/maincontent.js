@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 class MainContent extends React.Component {
-    componentDidUpdate() {
-       
+    componentDidUpdate() {       
         const { match: { path } } = this.props;
         if (path.indexOf('help') > -1) {
             setTimeout(()=>{
@@ -30,7 +29,9 @@ class MainContent extends React.Component {
         return (<div>
             <div>
                 <Header />
-                <PackageCarousal timer="3000" showArrows="true">
+                <PackageCarousal 
+                    timer="3000"
+                    showArrows="true">
                     <p ><Link to="/package/meghalaya">
                         <img src={require('../../assets/tryme.jpg')} />
                     </Link>

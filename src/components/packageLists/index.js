@@ -67,7 +67,7 @@ class PackageLists extends React.Component {
 
 
             </div>
-            <footer>Footer ends here</footer>
+            
         </div>)
     }
 };
