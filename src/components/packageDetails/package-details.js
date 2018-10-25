@@ -4,18 +4,24 @@ import PackageCarousal from '../../components/packageCarousal';
 const packages = {
     meghalayawildcard:
     {
-        description: `Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            standard dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book.
-            It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially.`,
+        description: `The picturesque land of North East India has amazing
+and limitless offerings for you. Add to
+that the Happiest Music Festival, you have an offer
+you can’t refuse! We’ll amplify your
+experience of the Bacardi NH7 Weekender by topping
+it up with our irresistible sightseeing
+packages for Meghalaya. Among many gems in the
+state are Shillong, Cherrapunji and
+Jaintia Hills. The bewildering richness of flora &amp;
+fauna, amazing scenic beauty will leave you
+speechless.`,
         gallery: [{
             type: 'image',
             url: './bestpackage1.jpg'
         },
         {
             type: 'video',
-            url: 'https://www.youtube.com/embed/UJs9p9hv2f8'
+            url: 'https://www.youtube.com/watch?v=zZIMK04bvnU&feature=youtu.be'
         }],
         gallery: [
             {
@@ -37,7 +43,7 @@ const packages = {
         },
         {
             type: 'video',
-            url: 'https://www.youtube.com/embed/UJs9p9hv2f8'
+            url: 'https://www.youtube.com/watch?v=zZIMK04bvnU&feature=youtu.be'
         }],
         gallery: [
             {
@@ -78,7 +84,7 @@ class PackageDetails extends React.Component {
                                 </p>
                                 <p><iframe width="400"
                                     height="400"
-                                    src="https://www.youtube.com/embed/UJs9p9hv2f8" ></iframe></p>
+                                    src="https://www.youtube.com/embed/zZIMK04bvnU" ></iframe></p>
                             </PackageCarousal>
                         </div>
                         <div className="fecilitydetails">

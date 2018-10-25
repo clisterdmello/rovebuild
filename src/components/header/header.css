@@ -224,6 +224,10 @@ menu ul li a:hover {
     color: #fff;
 }
 
+.socialMedia a  img{
+  width:50px;
+}
+
 /*Need Help*/
 
 #needHelp {

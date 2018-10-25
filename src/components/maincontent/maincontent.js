@@ -144,9 +144,11 @@ class MainContent extends React.Component {
                         <p>115 , Lohar Chawl, K M Sharma Marg</p>
                         <p>  Kalbadevi, Mumbai</p>
                         <p> Maharashtra</p>
+                      <p className="socialMedia"><a href="https://www.facebook.com/RoveNortheast" target="_blank"><img src={require('../../assets/fb.png')} /></a>
+                        <a href="https://www.instagram.com/Rove_northeast" target="_blank"><img src={require('../../assets/instagram-new.png')} /></a>
+                      </p>
 
                     </address>
-
 
                 </section>
             </div>
