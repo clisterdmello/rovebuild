@@ -29,105 +29,108 @@ class MainContent extends React.Component {
         return (<div>
             <div>
                 <Header />
-                <PackageCarousal 
-                    timer="3000"
-                    showArrows="true">
-                    <p ><Link to="/package/meghalaya">
-                        <img src={require('../../assets/tryme.jpg')} />
-                    </Link>
-                    </p>
-                    <p ><Link to="/detail/package-name-2">
-                        <img src={require('../../assets/homepageBanner1.jpg')} />
-                    </Link>
-                    </p>
-                    <p><Link to="/detail/package-name-3">
-                        <img src={require('../../assets/homepageBanner.jpg')} />
-                    </Link>
-                    </p>
-                </PackageCarousal>
+              <PackageCarousal timer="3000" showArrows="true">
+                <p ><Link to="/package/meghalaya">
+                  <img src={require('../../assets/meg3.jpg')} />
+                </Link>
+                </p>
+                <p ><Link to="/package/nagaland">
+                  <img src={require('../../assets/nag1.jpg')} />
+                </Link>
+                </p>
+                <p><Link to="/package/sikkim">
+                  <img src={require('../../assets/sik1.jpg')} />
+                </Link>
+                </p>
+                <p><Link to="/package/assam">
+                  <img src={require('../../assets/assam.jpg')} />
+                </Link>
+                </p>
+                <p><Link to="/package/arunachal">
+                  <img src={require('../../assets/ap1.jpg')} />
+                </Link>
+                </p>
+              </PackageCarousal>
             </div>
-            <div className="wrapper famousPackages">
-                <h2 className="center"><span className="borderBtm">Famous Packages</span></h2>
-                <div className="packageContainer">
-                    <div>
-                        <a href="#/detail/package1">
-                            <img src={Banner} />
-                            <span>
+          <div className="wrapper famousPackages">
+            <h2 className="center"><span className="borderBtm">Famous Packages</span></h2>
+            <div className="packageContainer">
+              <div>
+                <a href="#/detail/package1">
+                  <img src={Banner} />
+                  <span>
                                 Meghalaya
                             </span>
-                            <span>
+                  <span>
                                 2 days and 3nights
                             </span>
-                        </a>
-                    </div><div>
-                        <a href="#/detail/package2">
-                            <img src={Banner} />
-                            <span>
+                </a>
+              </div><div>
+              <a href="#/detail/package2">
+                <img src={Banner} />
+                <span>
                                 Meghalaya
                             </span>
-                            <span>
+                <span>
                                 2 days and 3nights
                             </span>
-                        </a>
-                    </div><div>
-                        <a href="#/detail/package3">
-                            <img src={Banner} />
-                            <span>
+              </a>
+            </div><div>
+              <a href="#/detail/package3">
+                <img src={Banner} />
+                <span>
                                 Meghalaya
                             </span>
-                            <span>
+                <span>
                                 2 days and 3nights
                             </span>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#/detail/package4">
-                            <img src={Banner} />
-                            <span>
-                                Meghalaya
-                            </span>
-                            <span>
-                                2 days and 3nights
-                            </span>
-                        </a>
-                    </div><div>
-                        <a href="">
-                            <img src={Banner} />
-                            <span>
-                                Meghalaya
-                            </span>
-                            <span>
-                                2 days and 3nights
-                            </span>
-                        </a>
-                    </div><div>
-                        <a href="">
-                            <img src={Banner} />
-                            <span>
-                                Meghalaya
-                            </span>
-                            <span>
-                                2 days and 3nights
-                            </span>
-                        </a>
-                    </div>
-                </div>
+              </a>
             </div>
-            <div id="aboutUs">
-                <h2 className="center"><span className="borderBtm">About Us</span></h2>
-                <div className="wrapper aboutUsDesc">
-                    <div>Dzukou Valley is most famous for its multicolored
-                        carpets of flowers that bloom in summer,
-                        most notably the Dzukou lily which is found only in the valley.
-                        Dzukou Valley is most famous for its multicolored carpets of
-                        flowers that bloom in su.</div>
-                    <div>Dzukou Valley is most famous for its multicolored
-                        carpets of flowers that bloom in summer,
-                        most notably the Dzukou lily which is found only in the valley.
-                        Dzukou Valley is most famous for its multicolored carpets of
-                        flowers that bloom in su.</div>
-                </div>
+              <div>
+                <a href="#/detail/package4">
+                  <img src={Banner} />
+                  <span>
+                                Meghalaya
+                            </span>
+                  <span>
+                                2 days and 3nights
+                            </span>
+                </a>
+              </div><div>
+              <a href="">
+                <img src={Banner} />
+                <span>
+                                Meghalaya
+                            </span>
+                <span>
+                                2 days and 3nights
+                            </span>
+              </a>
+            </div><div>
+              <a href="">
+                <img src={Banner} />
+                <span>
+                                Meghalaya
+                            </span>
+                <span>
+                                2 days and 3nights
+                            </span>
+              </a>
             </div>
+            </div>
+          </div>
+          <div id="aboutUs">
+            <h2 className="center"><span className="borderBtm">About Us</span></h2>
+            <div className="wrapper aboutUsDesc">
+              <div>Rove Northeast is an organisation providing a gateway for adventure
+                seekers and travellers across the globe to explore the virgin lands of
+                mystical Northeast India.Apart from working as a travel agency, we
+                encapsulate a social</div>
+              <div> motive within to spread the glory and scenic
+                raw beauty of the seven sisters that has remained unexplored and
+                hidden. So get ready to discover Northeast in a new light!</div>
+            </div>
+          </div>
             <div id="needHelp">
                 <h2 className="center"><span className="borderBtm">Contact Us</span></h2>
                 <section className="wrapper">
