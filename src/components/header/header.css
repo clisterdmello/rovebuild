@@ -476,10 +476,10 @@ menu ul li a:hover {
 }
 
 .signiningForm input[type="submit"] {
-    padding: 5px 20px;
-    font-size: 17px;
-    margin-top: 13px;
-    background: #81e229;
+    padding: 5px 22px;
+    font-size: 15px;
+    background: #3e4245;
+    color: #fff;
+    margin-top: 26px;
     border: 0;
-    border-radius: 2px;
 }

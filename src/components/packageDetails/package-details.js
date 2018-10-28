@@ -3,8 +3,7 @@ import Header from '../../components/header/Header';
 import PackageCarousal from '../../components/packageCarousal';
 const pathToPachageImages = require.context('../../assets/', true);
 const packages = {
-    meghalayawildcard:
-    {
+    meghalayawildcard:{
         description: `The picturesque land of North East India has amazing
 and limitless offerings for you. Add to
 that the Happiest Music Festival, you have an offer
@@ -28,9 +27,42 @@ speechless.`,
             {
                 type: 'Signt Seeing',
                 icon: './icons/cycling.png'
+            },
+            {
+                type: 'Signt Seeing',
+                icon: './icons/cycling.png'
+            },
+            {
+                type: 'Signt Seeing',
+                icon: './icons/cycling.png'
             }
         ]
-    }
+    },
+    meghalayatrunpcad:{
+        description: `new`,
+        gallery: [{
+            type: 'image',
+            image: './bestpackage1.jpg'
+        },
+        {
+            type: 'video',
+            video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        }],
+        activities: [
+            {
+                type: 'Signt Seeing',
+                icon: './icons/cycling.png'
+            },
+            {
+                type: 'Signt Seeing',
+                icon: './icons/cycling.png'
+            },
+            {
+                type: 'Signt Seeing',
+                icon: './icons/cycling.png'
+            }
+        ]
+    },
 };
 
 class PackageDetails extends React.Component {
@@ -70,7 +102,7 @@ class PackageDetails extends React.Component {
                                     packagesDetails.activities.map((slide, index) => {
                                         return <tr key={index}>
                                             <td>{slide.type}</td>
-                                            <td><img src={pathToPachageImages(slide.icon, true)} alt={slide.type} /></td>
+                                            <td><img src={pathToPachageImages(slide.icon, true)} alt={slide.type} title={slide.type} /></td>
                                         </tr>
                                     })
                                 }
@@ -82,16 +114,15 @@ class PackageDetails extends React.Component {
                     </div>
                     <div className="signiningForm center">
                         <form action="">
-                            <table><tbody>
+                            <table>
+                                <tbody>
                                 <tr>
                                     <td><label>Name</label> <input type="text" /></td>
                                     <td> <label>Email</label>  <input type="Email" /></td>
                                     <td><label>Contact</label> <input type="Email" /></td>
+                                    <td><input type="Submit" value="Enquire" /></td>
                                 </tr>
-                                <tr >
-                                    <td colSpan="3" className="center"><input type="Submit" value="Enquire" /></td>
-
-                                </tr></tbody>
+                                </tbody>
                             </table>
                         </form>
                     </div>
