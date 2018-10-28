@@ -92,29 +92,22 @@ class PackageDetails extends React.Component {
                             <table><tbody>
 
                                 <tr>
-                                    <td><img src={require('../../assets/icons/adventure.png')} /> </td>
-                                    <td>Adventure</td>
-                                    <td>Cycling</td>
+                                    <td>Signt Seeing</td>
                                     <td><img src={require('../../assets/icons/cycling.png')} /> </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={require('../../assets/icons/adventure.png')} /> </td>
-                                    <td>Adventure</td>
-                                    <td>Cycling</td>
+                                    <td>Elephant Safari</td>
                                     <td><img src={require('../../assets/icons/cycling.png')} /> </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={require('../../assets/icons/adventure.png')} /> </td>
-                                    <td>Adventure</td>
-                                    <td>Cycling</td>
+                                    <td>Jeep Safari</td>
                                     <td><img src={require('../../assets/icons/cycling.png')} /> </td>
                                 </tr>
                                 <tr>
-                                    <td><img src={require('../../assets/icons/adventure.png')} /> </td>
-                                    <td>Adventure</td>
-                                    <td>Cycling</td>
+                                    <td>river rafting</td>
                                     <td><img src={require('../../assets/icons/cycling.png')} /> </td>
                                 </tr>
+                                
                                 </tbody>
                             </table>
                         </div>
