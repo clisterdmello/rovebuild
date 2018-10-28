@@ -396,11 +396,11 @@ menu ul li a:hover {
 
 #packageOfferings .fecilitypics, #packageOfferings .fecilitydetails {
     padding: 10px;
-    width: 40%;
+    width: 25%;
 }
 
 #packageOfferings .fecilitypics {
-    width: 60%;
+    width: 75%;
 }
 
 .fecilitydetails h2 {
@@ -432,16 +432,16 @@ menu ul li a:hover {
 }
 
 #packageOfferings .fecilitydetails table td {
-    width: 30%;
-    display: inline-block;
-    text-align: right;
-    margin: 6px 0;
+    width:70% ;
+    text-align: center;
+}
+#packageOfferings .fecilitydetails table td:nth-child(even) {
+    width:30%   
+}
+#packageOfferings .carousal{
+    height:400px;
 }
 
-#packageOfferings .fecilitydetails table td:first-child, 
-#packageOfferings .fecilitydetails table td:last-child {
-    width: 20%;
-}
 #packageOfferings .leftArrow, #packageOfferings  .rightArrow{    
     height: 26%;
     font-size: 33px;
