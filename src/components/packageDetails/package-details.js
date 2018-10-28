@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/header/Header';
 import PackageCarousal from '../../components/packageCarousal';
+const pathToPachageImages = require.context('../../assets/', true);
 const packages = {
     meghalayawildcard:
     {
@@ -17,41 +18,19 @@ fauna, amazing scenic beauty will leave you
 speechless.`,
         gallery: [{
             type: 'image',
-            url: './bestpackage1.jpg'
+            image: './bestpackage1.jpg'
         },
         {
             type: 'video',
-            url: 'https://www.youtube.com/watch?v=zZIMK04bvnU&feature=youtu.be'
+            video: 'https://www.youtube.com/embed/zZIMK04bvnU'
         }],
-        gallery: [
+        activities: [
             {
-                title: 'Adventure',
-                icon: './adventure.png'
+                type: 'Signt Seeing',
+                icon: './icons/cycling.png'
             }
         ]
-    },
-    arunachalwildcard:
-    {
-        description: `Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown printer took a
-                galley of type and scrambled it to make a type specimen book.
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially.`,
-        gallery: [{
-            type: 'image',
-            url: './bestpackage1.jpg'
-        },
-        {
-            type: 'video',
-            url: 'https://www.youtube.com/watch?v=zZIMK04bvnU&feature=youtu.be'
-        }],
-        gallery: [
-            {
-                title: 'Adventure',
-                icon: './adventure.png'
-            }
-        ]
-    },
+    }
 };
 
 class PackageDetails extends React.Component {
@@ -62,7 +41,6 @@ class PackageDetails extends React.Component {
     render() {
         const { group, pkgid } = this.props.match.params;
         const packagesDetails = packages[`${group + pkgid}`];
-        console.log(packagesDetails);
         return (<div className="banner bannerOther">
             <Header />
             <div className="wrapper mainContentPadding">
@@ -76,39 +54,27 @@ class PackageDetails extends React.Component {
                     <div id="packageOfferings">
                         <div className="fecilitypics">
                             <PackageCarousal timer="0" showArrows="true">
-                                <p ><img src={require('../../assets/packages/himalaya/1.jpg')} />
+                                {
+                                    packagesDetails.gallery.map((slide, index) => {
+                                        return <p key={index}> {slide.type === 'image' && <img src={pathToPachageImages(slide.image, true)} alt={slide.image} />}
+                                            {slide.type === 'video' && <iframe width="400" height="400" src="https://www.youtube.com/embed/zZIMK04bvnU" ></iframe>}</p>
+                                    })
+                                }
 
-                                </p>
-                                <p ><img src={require('../../assets/packages/himalaya/2.jpg')} />
-
-                                </p>
-                                <p><iframe width="400"
-                                    height="400"
-                                    src="https://www.youtube.com/embed/zZIMK04bvnU" ></iframe></p>
                             </PackageCarousal>
                         </div>
                         <div className="fecilitydetails">
-                            <h2>What to look for</h2>
+                            <h2>Activities</h2>
                             <table><tbody>
-
-                                <tr>
-                                    <td>Signt Seeing</td>
-                                    <td><img src={require('../../assets/icons/cycling.png')} /> </td>
-                                </tr>
-                                <tr>
-                                    <td>Elephant Safari</td>
-                                    <td><img src={require('../../assets/icons/cycling.png')} /> </td>
-                                </tr>
-                                <tr>
-                                    <td>Jeep Safari</td>
-                                    <td><img src={require('../../assets/icons/cycling.png')} /> </td>
-                                </tr>
-                                <tr>
-                                    <td>river rafting</td>
-                                    <td><img src={require('../../assets/icons/cycling.png')} /> </td>
-                                </tr>
-                                
-                                </tbody>
+                                {
+                                    packagesDetails.activities.map((slide, index) => {
+                                        return <tr key={index}>
+                                            <td>{slide.type}</td>
+                                            <td><img src={pathToPachageImages(slide.icon, true)} alt={slide.type} /></td>
+                                        </tr>
+                                    })
+                                }
+                            </tbody>
                             </table>
                         </div>
 
@@ -123,7 +89,7 @@ class PackageDetails extends React.Component {
                                     <td><label>Contact</label> <input type="Email" /></td>
                                 </tr>
                                 <tr >
-                                    <td colspan="3" className="center"><input type="Submit" value="Enquire" /></td>
+                                    <td colSpan="3" className="center"><input type="Submit" value="Enquire" /></td>
 
                                 </tr></tbody>
                             </table>
