@@ -7,27 +7,42 @@ const pathToPachageImages = require.context('../../assets/', true);
 const packages = {
     meghalaya: [
         {
-            url: '../package/meghalaya/wildcard',
+            url: '../package/Meghalaya/WeekenderSpecial',
             image: './bestpackage1.jpg'
         },
         {
-            url: '../package/meghalaya/trunpcad',
+            url: '../package/Meghalaya/ExploreMeghalaya',
             image: './bestpackage1.jpg'
         },
         {
-            url: '../package/meghalaya/trunpcad',
+            url: '../package/Meghalaya/NH7WeekenderStudentPackage',
             image: './bestpackage1.jpg'
         }],
-    arunachal: [
+    assam: [
         {
-            url: '../package/meghalaya/wildcard',
-            image: './bestpackage1.jpg'
+          url: '../package/Assam/RoverAdventurerPackage',
+          image: './bestpackage1.jpg'
         },
         {
-            url: '../package/meghalaya/trunpcad',
+          url: '../package/Assam/ManasSafariPackage',
+          image: './bestpackage1.jpg'
+        }],
+    sikkim: [
+        {
+            url: '../package/Sikkim/HoneymoonPackage',
             image: './bestpackage1.jpg'
         }],
-};
+    arunachalpradesh: [
+        {
+            url: '../package/ArunachalPradesh/ExploringTawang',
+            image: './bestpackage1.jpg'
+        }],
+    nagaland: [
+        {
+            url: '../package/Nagaland/TrekRouteToValleyOfFlower',
+            image: './bestpackage1.jpg'
+        }],
+    };
 
 class PackageLists extends React.Component {
     computeFinalPackages(indivisualPackage) {
