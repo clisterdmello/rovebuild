@@ -46,7 +46,7 @@ class MainContent extends React.Component {
                   <img src={require('../../assets/assam.jpg')} />
                 </Link>
                 </p>
-                <p><Link to="/package/arunachalpradesh">
+                <p><Link to="/package/arunachal">
                   <img src={require('../../assets/ap1.jpg')} />
                 </Link>
                 </p>
