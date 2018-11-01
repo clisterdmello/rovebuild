@@ -164,15 +164,15 @@ const packages = {
       },
       {
         type: 'Elephant Safari',
-        icon: './icons/cycling.png'
+        icon: './icons/elephant.png'
       },
       {
         type: 'Jeep Safari',
-        icon: './icons/cycling.png'
+        icon: './icons/safari-jeep.png'
       },
       {
         type: 'River Rafting',
-        icon: './icons/cycling.png'
+        icon: './icons/river-rafting.png'
       },
       {
         type: 'Boating',
@@ -215,15 +215,15 @@ const packages = {
       },
       {
         type: 'Camping',
-        icon: './icons/cycling.png'
+        icon: './icons/Camping.png'
       },
       {
         type: 'Elephant Safari',
-        icon: './icons/cycling.png'
+        icon: './icons/elephant.png'
       },
       {
         type: 'River Rafting',
-        icon: './icons/cycling.png'
+        icon: './icons/river-rafting.png'
       },
     ],
     costing: [
@@ -287,7 +287,7 @@ const packages = {
     activities: [
       {
         type: 'Adventure',
-        icon: './icons/cycling.png'
+        icon: './icons/wingsuit.png'
       },
       {
         type: 'Signt Seeing',
@@ -295,7 +295,7 @@ const packages = {
       },
       {
         type: 'Road Trip',
-        icon: './icons/cycling.png'
+        icon: './icons/camper-van.png'
       },
     ],
     costing: [
@@ -331,7 +331,7 @@ const packages = {
       },
       {
         type: 'Adventure',
-        icon: './icons/cycling.png'
+        icon: './icons/wingsuit.png'
       },
       {
         type: 'Trekking',
