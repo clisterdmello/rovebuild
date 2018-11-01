@@ -8,41 +8,60 @@ const packages = {
     meghalaya: [
         {
             url: '../package/Meghalaya/WeekenderSpecial',
-            image: './bestpackage1.jpg'
+            image: './nag1.jpg',
+            name: 'NH7 Weekender Student Package',
+            location: 'Meghalaya'
+
         },
         {
             url: '../package/Meghalaya/ExploreMeghalaya',
-            image: './bestpackage1.jpg'
+            image: './nag1.jpg',
+            name: 'Explore Meghalaya',
+            location: 'Meghalaya'
+
         },
         {
             url: '../package/Meghalaya/NH7WeekenderStudentPackage',
-            image: './bestpackage1.jpg'
+            image: './nag1.jpg',
+            name: 'NH7 Weekender Student Package',
+            location: 'Meghalaya'
         }],
     assam: [
         {
-          url: '../package/Assam/RoverAdventurerPackage',
-          image: './bestpackage1.jpg'
+            url: '../package/Assam/RoverAdventurerPackage',
+            image: './nag1.jpg',
+            name: 'My Package',
+            location: 'Assam'
+
         },
         {
-          url: '../package/Assam/ManasSafariPackage',
-          image: './bestpackage1.jpg'
+            url: '../package/Assam/ManasSafariPackage',
+            image: './nag1.jpg',
+            name: 'My Package',
+            location: 'Assam'
         }],
     sikkim: [
         {
             url: '../package/Sikkim/HoneymoonPackage',
-            image: './bestpackage1.jpg'
+            image: './nag1.jpg',
+            name: 'My Package',
+            location: 'Assam'
         }],
     arunachalpradesh: [
         {
             url: '../package/ArunachalPradesh/ExploringTawang',
-            image: './bestpackage1.jpg'
+            image: './nag1.jpg',
+            name: 'My Package',
+            location: 'Assam'
         }],
     nagaland: [
         {
             url: '../package/Nagaland/TrekRouteToValleyOfFlower',
-            image: './bestpackage1.jpg'
+            image: './nag1.jpg',
+            name: 'My Package',
+            location: 'Assam'
         }],
-    };
+};
 
 class PackageLists extends React.Component {
     computeFinalPackages(indivisualPackage) {
@@ -69,20 +88,20 @@ class PackageLists extends React.Component {
                     {
                         this.computeFinalPackages(pakageCategory).map((unit, index) => {
                             return <div key={index} className="searchListElement">
-                                <div className="listedPackageDetails">
-                                    <p><Link to={unit.url}>
-                                    <img src={pathToPachageImages(unit.image, true)} alt={unit.url} />
-                                    </Link></p>
+                                    <div className="listedPackageDetails" title={unit.location+' ' +unit.name}>
+                                        <p><Link to={unit.url}>
+                                            <img src={pathToPachageImages(unit.image, true)} alt={unit.location+unit.name} />
+                                        </Link></p>
+                                        <p>{unit.name}</p>
+                                    </div>
                                 </div>
-                            </div>}
-
-                        )}
+                            })}
 
                 </div>
 
 
             </div>
-            
+
         </div>)
     }
 };

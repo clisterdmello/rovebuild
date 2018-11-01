@@ -6,12 +6,12 @@ const packages = {
   meghalayaweekenderspecial:{
     description: `The picturesque land of North East India has 
         amazing and limitless offerings for you. 
-        Add to that the Happiest Music Festival, 
+        Add to that the Happiest Music Festival, 
         you have an offer you can’t refuse! 
-        We’ll amplify your experience of the Bacardi NH7 Weekender 
-        by topping it up with our irresistible sightseeing packages for Meghalaya. 
-        Among many gems in the state are Shillong, Cherrapunji and Jaintia Hills. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless. `,
+        We’ll amplify your experience of the Bacardi NH7 Weekender 
+        by topping it up with our irresistible sightseeing  packages for Meghalaya. 
+        Among many gems in the state are Shillong, Cherrapunji and  Jaintia Hills. 
+        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.  `,
     places: 'Shillong,Jowai, NH7 Weekender, Dawki, Mawlyngnong, Bangladesh border, Living root bridge, Cherrapunji, Chand-Dubi Jungle Camp',
     gallery: [{
       type: 'image',
@@ -53,12 +53,10 @@ const packages = {
     ]
   },
   meghalayaexploremeghalaya:{
-    description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        You simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
-        A few steps away, an unseen beautiful waterfall might be waiting for you. 
-        Among many gems some most popular are Shillong, Cherrapunji and Dawki. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
-    places: `Cherrapunjee, Dawki, Mawlyngnong, Shillong `,
+    description: `The picturesque land of North East India has amazing and limitless offerings for you. You  simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
+        A few steps away, an unseen  beautiful waterfall might be waiting for you. Among many gems some most popular are  Shillong, Cherrapunji and Dawki. 
+        The bewildering richness of flora &amp; fauna, amazing scenic  beauty will leave you speechless.`,
+    places: `Cherrapunjee, Dawki, Mawlyngnong, Shillong  `,
     gallery: [{
       type: 'image',
       image: './Cherrapunji.jpg'
@@ -96,9 +94,9 @@ const packages = {
   },
   meghalayanh7weekenderstudentpackage:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
-        We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
+        Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
+        We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
+        The bewildering richness of flora &amp; fauna, amazing scenic beauty will  leave you speechless.`,
     places: `Jowai, NH7 Weekender, Khransuri waterfall`,
     gallery: [{
       type: 'image',
@@ -129,22 +127,22 @@ const packages = {
   },
   assamroveradventurerpackage:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-    You simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
-    A few steps away, an unseen beautiful waterfall might be waiting for you. 
-    Among many gems some most popular are Kaziranga and Nameri National Parks, Shillong, and Cherrapunji. 
-    The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
+    You  simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
+    A few steps away, an unseen  beautiful waterfall might be waiting for you. 
+    Among many gems some most popular are  Kaziranga and Nameri National Parks, Shillong, and Cherrapunji. 
+    The bewildering richness  of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
     places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
     gallery: [{
       type: 'image',
-      image: './Living root bridge.jpg'
+      image: './nag1.jpg',
     },
       {
         type: 'image',
-        image: './Nameri-Rafting-by-Sachin-Rai.jpg'
+        image: './nag1.jpg',
       },
       {
         type: 'image',
-        image: './kaziranga-elephant-safari-3.jpg'
+        image: './nag1.jpg',
       },
       {
         type: 'video',
@@ -175,12 +173,17 @@ const packages = {
         type: 'Campfire',
         icon: './icons/CampFire.png'
       },
+    ],
+    costing: [
+      'Point1','Point2',
     ]
+
+    
   },
   assammanassafaripackage:{
     description: `The enchanting Manas National Park is waiting to blow your mind with its bewildering 
-    beauty and its diversity of flora and fauna. Experience it at its best with us with our stays in 
-    cottage tents and outdoor tents and our elephant safari and Jeep safari! `,
+    beauty  and its diversity of flora and fauna. Experience it at its best with us with our stays in 
+    cottage  tents and outdoor tents and our elephant safari and Jeep safari!  `,
     places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
     gallery: [{
       type: 'image',
@@ -219,9 +222,9 @@ const packages = {
   },
   sikkimhoneymoonpackage:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
-        We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
+        Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
+        We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
+        The bewildering richness of flora &amp; fauna, amazing scenic beauty will  leave you speechless.`,
     places: `Gangtok, Tsomgo Lake/Changu Lake`,
     gallery: [{
       type: 'image',
@@ -248,9 +251,9 @@ const packages = {
   },
   arunachalpradeshexploringtawang:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
-        We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
+        Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
+        We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
+        The bewildering richness of flora &amp; fauna, amazing scenic beauty will  leave you speechless.`,
     places: `Guwahati, Tezpur, Dirang, Tawang, bomdila`,
     gallery: [{
       type: 'image',
@@ -285,9 +288,9 @@ const packages = {
   },
   nagalandtrekroutetovalleyofflower:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
-        We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
+        Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
+        We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
+        The bewildering richness of flora &amp; fauna, amazing scenic beauty will  leave you speechless.`,
     places: `Kohima, Dzukou Valley`,
     gallery: [{
       type: 'image',
@@ -331,7 +334,8 @@ class PackageDetails extends React.Component {
 
     render() {
         const { group, pkgid } = this.props.match.params;
-        const selectedPackageDetails = packages[`${group.toLowerCase() + pkgid.toLowerCase()}`];
+        //const selectedPackageDetails = packages[`${group.toLowerCase() + pkgid.toLowerCase()}`];
+        const selectedPackageDetails = packages['assamroveradventurerpackage'];
         return (<div className="banner bannerOther">
             <Header />
             <div className="wrapper mainContentPadding">
@@ -348,10 +352,12 @@ class PackageDetails extends React.Component {
                     </div>
                   <div className="detailSectionTitle">Package Costing</div>
                   <div className="detailSectionDescription">
-                    <ul>
-                      <li>21,875//- per person (Luxury basic/ standard)</li>
-                      <li>16,250/-  per person (economic/ budget)  2 person twin sharing</li>
-
+                    <ul id="costing">
+                      {
+                        selectedPackageDetails.costing.map((slide, index) => {
+                          return <li>{slide}</li>
+                        })
+                      }
                     </ul>
                   </div>
                     <div id="packageOfferings">
@@ -368,17 +374,15 @@ class PackageDetails extends React.Component {
                         </div>
                         <div className="fecilitydetails">
                             <h2>Activities</h2>
-                            <table><tbody>
+                            
                                 {
                                     selectedPackageDetails.activities.map((slide, index) => {
-                                        return <tr key={index}>
-                                            <td>{slide.type}</td>
-                                            <td><img src={pathToPachageImages(slide.icon, true)} alt={slide.type} title={slide.type} /></td>
-                                        </tr>
-                                    })
+                                      return <div key={index}>
+                                              <img src={pathToPachageImages(slide.icon, true)} alt={slide.type} title={slide.type} />
+                                            </div>
+                                      })
                                 }
-                            </tbody>
-                            </table>
+                            
                         </div>
 
 
