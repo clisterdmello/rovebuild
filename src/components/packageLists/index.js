@@ -8,21 +8,21 @@ const packages = {
     meghalaya: [
         {
             url: '../package/Meghalaya/WeekenderSpecial',
-            image: './nag1.jpg',
+            image: './NH7_weekender.jpg',
             name: 'NH7 Weekender Student Package',
             location: 'Meghalaya'
 
         },
         {
             url: '../package/Meghalaya/ExploreMeghalaya',
-            image: './nag1.jpg',
+            image: './Cherrapunji.jpg',
             name: 'Explore Meghalaya',
             location: 'Meghalaya'
 
         },
         {
             url: '../package/Meghalaya/NH7WeekenderStudentPackage',
-            image: './nag1.jpg',
+            image: './Krangshuri Waterfall.jpg',
             name: 'NH7 Weekender Student Package',
             location: 'Meghalaya'
         }],
@@ -30,36 +30,36 @@ const packages = {
         {
             url: '../package/Assam/RoverAdventurerPackage',
             image: './nag1.jpg',
-            name: 'My Package',
+            name: 'Rover Adventurer Package',
             location: 'Assam'
 
         },
         {
             url: '../package/Assam/ManasSafariPackage',
-            image: './nag1.jpg',
-            name: 'My Package',
+            image: './Manas national park.jpg',
+            name: 'Manas Safari Package',
             location: 'Assam'
         }],
     sikkim: [
         {
             url: '../package/Sikkim/HoneymoonPackage',
-            image: './nag1.jpg',
-            name: 'My Package',
-            location: 'Assam'
+            image: './sik1.jpg',
+            name: 'Honeymoon Package',
+            location: 'Sikkim'
         }],
     arunachalpradesh: [
         {
             url: '../package/ArunachalPradesh/ExploringTawang',
-            image: './nag1.jpg',
-            name: 'My Package',
-            location: 'Assam'
+            image: './ap1.jpg',
+            name: 'Explore Tawang',
+            location: 'ArunachalPradesh'
         }],
     nagaland: [
         {
             url: '../package/Nagaland/TrekRouteToValleyOfFlower',
             image: './nag1.jpg',
-            name: 'My Package',
-            location: 'Assam'
+            name: 'Trek Route To Valley Of Flower',
+            location: 'Nagaland'
         }],
 };
 

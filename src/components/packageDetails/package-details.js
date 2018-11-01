@@ -52,7 +52,7 @@ const packages = {
       }
     ],
     costing: [
-      'Point1','Point2',
+      '17500/- per person (6 person group)','',
     ]
   },
   meghalayaexploremeghalaya:{
@@ -95,7 +95,7 @@ const packages = {
       },
     ],
     costing: [
-      'Point1','Point2',
+      '15,650/- per person (luxury Basic) (4 person group) (twin sharing)','17,500/-  per person luxury(Premium) (4 person group) (twin sharing)',
     ]
   },
   meghalayanh7weekenderstudentpackage:{
@@ -131,7 +131,7 @@ const packages = {
       },
     ],
     costing: [
-      'Point1','Point2',
+      '5,500/- per person (11 person group)','',
     ]
   },
   assamroveradventurerpackage:{
@@ -184,10 +184,8 @@ const packages = {
       },
     ],
     costing: [
-      'Point1','Point2',
+      '23,500/- per person (4 person group) (twin sharing)','',
     ]
-
-    
   },
   assammanassafaripackage:{
     description: `The enchanting Manas National Park is waiting to blow your mind with its bewildering 
@@ -229,7 +227,7 @@ const packages = {
       },
     ],
     costing: [
-      'Point1','Point2',
+      '8500/- per person (4 person group) (twin sharing)','',
     ]
   },
   sikkimhoneymoonpackage:{
@@ -261,7 +259,7 @@ const packages = {
       },
     ],
     costing: [
-      'Point1','Point2',
+      '21,875/- per person (luxury standard) (2 person group) (twin sharing)','16,250/-  per person (Economic) (2 person group) (twin sharing)',
     ]
   },
   arunachalpradeshexploringtawang:{
@@ -301,7 +299,7 @@ const packages = {
       },
     ],
     costing: [
-      'Point1','Point2',
+      '14,999/- per person (6 person group) (twin sharing)','',
     ]
   },
   nagalandtrekroutetovalleyofflower:{
@@ -341,7 +339,7 @@ const packages = {
       },
     ],
     costing: [
-      'Point1','Point2',
+      '9,999/- per person (11 person group) (twin sharing)','',
     ]
   },
 
