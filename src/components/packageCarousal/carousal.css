@@ -1,6 +1,6 @@
 .carousal {
     display: block;
-    height: 600px;
+    height: 550px;
     position: relative;
     overflow: hidden;
 }
@@ -13,7 +13,7 @@
     font-size: 39px;
     padding: 1%;
     background: #ffffff57;
-    margin: 17.5% 0 0 0;
+    margin: 15% 0 0 0;
     color: #202521;
     border-radius: 12px 0 0 12px;
 }
