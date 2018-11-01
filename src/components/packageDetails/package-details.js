@@ -3,7 +3,7 @@ import Header from '../../components/header/Header';
 import PackageCarousal from '../../components/packageCarousal';
 const pathToPachageImages = require.context('../../assets/', true);
 const packages = {
-    MeghalayaWeekenderSpecial:{
+    meghalayaweekenderspecial:{
         description: `The picturesque land of North East India has 
         amazing and limitless offerings for you. 
         Add to that the Happiest Music Festival, 
@@ -36,7 +36,7 @@ const packages = {
         activities: [
             {
                 type: 'Camping',
-                icon: './icons/cycling.png'
+                icon: './icons/Camping.png'
             },
             {
                 type: 'Signt Seeing',
@@ -52,7 +52,7 @@ const packages = {
             }
         ]
     },
-    MeghalayaExploreMeghalaya:{
+    meghalayaexploremeghalaya:{
         description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         You simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
         A few steps away, an unseen beautiful waterfall might be waiting for you. 
@@ -94,7 +94,7 @@ const packages = {
             },
         ]
     },
-    MeghalayaNH7WeekenderStudentPackage:{
+    meghalayanh7weekenderstudentpackage:{
       description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
         We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
@@ -119,7 +119,7 @@ const packages = {
       activities: [
           {
             type: 'Camping',
-            icon: './icons/cycling.png'
+            icon: './icons/Camping.png'
           },
           {
             type: 'Signt Seeing',
@@ -127,7 +127,7 @@ const packages = {
           },
           ]
     },
-  AssamRoverAdventurerPackage:{
+  assamRoveradventurerpackage:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
     You simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
     A few steps away, an unseen beautiful waterfall might be waiting for you. 
@@ -177,7 +177,7 @@ const packages = {
       },
     ]
   },
-  AssamManasSafariPackage:{
+  assammanassafaripackage:{
     description: `The enchanting Manas National Park is waiting to blow your mind with its bewildering 
     beauty and its diversity of flora and fauna. Experience it at its best with us with our stays in 
     cottage tents and outdoor tents and our elephant safari and Jeep safari! `,
@@ -217,7 +217,7 @@ const packages = {
       },
     ]
   },
-  SikkimHoneymoonPackage:{
+  sikkimhoneymoonpackage:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
         We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
@@ -246,7 +246,7 @@ const packages = {
       },
     ]
   },
-  ArunachalPradeshExploringTawang:{
+  arunachalpradeshexploringtawang:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
         We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
@@ -283,7 +283,7 @@ const packages = {
       },
     ]
   },
-  NagalandTrekRouteToValleyOfFlower:{
+  nagalandtrekroutetovalleyofflower:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
         We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
@@ -308,7 +308,7 @@ const packages = {
     activities: [
       {
         type: 'Camping',
-        icon: './icons/cycling.png'
+        icon: './icons/Camping.png'
       },
       {
         type: 'Adventure',
