@@ -50,6 +50,9 @@ const packages = {
         type: 'Trekking',
         icon: './icons/Trekking.png'
       }
+    ],
+    costing: [
+      'Point1','Point2',
     ]
   },
   meghalayaexploremeghalaya:{
@@ -90,6 +93,9 @@ const packages = {
         type: 'Trekking',
         icon: './icons/Trekking.png'
       },
+    ],
+    costing: [
+      'Point1','Point2',
     ]
   },
   meghalayanh7weekenderstudentpackage:{
@@ -123,6 +129,9 @@ const packages = {
         type: 'Signt Seeing',
         icon: './icons/SightSeeing.png'
       },
+    ],
+    costing: [
+      'Point1','Point2',
     ]
   },
   assamroveradventurerpackage:{
@@ -218,6 +227,9 @@ const packages = {
         type: 'River Rafting',
         icon: './icons/cycling.png'
       },
+    ],
+    costing: [
+      'Point1','Point2',
     ]
   },
   sikkimhoneymoonpackage:{
@@ -247,6 +259,9 @@ const packages = {
         type: 'Signt Seeing',
         icon: './icons/SightSeeing.png'
       },
+    ],
+    costing: [
+      'Point1','Point2',
     ]
   },
   arunachalpradeshexploringtawang:{
@@ -284,6 +299,9 @@ const packages = {
         type: 'Road Trip',
         icon: './icons/cycling.png'
       },
+    ],
+    costing: [
+      'Point1','Point2',
     ]
   },
   nagalandtrekroutetovalleyofflower:{
@@ -321,6 +339,9 @@ const packages = {
         type: 'Trekking',
         icon: './icons/Trekking.png'
       },
+    ],
+    costing: [
+      'Point1','Point2',
     ]
   },
 
@@ -394,9 +415,9 @@ class PackageDetails extends React.Component {
                             <table>
                                 <tbody>
                                 <tr>
-                                    <td><label>Name</label> <input type="text" /></td>
-                                    <td> <label>Email</label>  <input type="Email" /></td>
-                                    <td><label>Contact</label> <input type="Email" /></td>
+                                    <td><input type="text"  placeholder="Name"/></td>
+                                    <td><input type="Email" placeholder="Email"/></td>
+                                    <td><input type="text" placeholder="Contact"/></td>
                                     <td><input type="Submit" value="Enquire" /></td>
                                 </tr>
                                 </tbody>

@@ -131,8 +131,9 @@ class MainContent extends React.Component {
 
             <form>
               <input type="text" placeholder="Name" />
+              <input type="Email" placeholder="Email"/>
               <input type="text" placeholder="Contact" />
-              <input type="submit" value="call me" />
+              <input type="submit" value="Enquire" />
             </form>
             <address>
               <p>Rove Northeast (1,381.53 km) 781007</p>
