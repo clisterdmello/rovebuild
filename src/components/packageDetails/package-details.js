@@ -52,7 +52,7 @@ const packages = {
       }
     ],
     costing: [
-      '17500/- per person (6 person group)','',
+      '17500/- per person (6 person group)',
     ]
   },
   meghalayaexploremeghalaya:{
@@ -131,7 +131,7 @@ const packages = {
       },
     ],
     costing: [
-      '5,500/- per person (11 person group)','',
+      '5,500/- per person (11 person group)',
     ]
   },
   assamroveradventurerpackage:{
@@ -184,7 +184,7 @@ const packages = {
       },
     ],
     costing: [
-      '23,500/- per person (4 person group) (twin sharing)','',
+      '23,500/- per person (4 person group) (twin sharing)',
     ]
   },
   assammanassafaripackage:{
@@ -227,7 +227,7 @@ const packages = {
       },
     ],
     costing: [
-      '8500/- per person (4 person group) (twin sharing)','',
+      '8500/- per person (4 person group) (twin sharing)',
     ]
   },
   sikkimhoneymoonpackage:{
@@ -299,7 +299,7 @@ const packages = {
       },
     ],
     costing: [
-      '14,999/- per person (6 person group) (twin sharing)','',
+      '14,999/- per person (6 person group) (twin sharing)',
     ]
   },
   nagalandtrekroutetovalleyofflower:{
@@ -339,7 +339,7 @@ const packages = {
       },
     ],
     costing: [
-      '9,999/- per person (11 person group) (twin sharing)','',
+      '9,999/- per person (11 person group) (twin sharing)',
     ]
   },
 
