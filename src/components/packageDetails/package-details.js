@@ -40,7 +40,7 @@ const packages = {
             },
             {
                 type: 'Signt Seeing',
-                icon: './icons/cycling.png'
+                icon: './icons/Tourism icon (136).png'
             },
             {
                 type: 'Boating',
@@ -82,7 +82,7 @@ const packages = {
         activities: [
             {
                 type: 'Signt Seeing',
-                icon: './icons/cycling.png'
+                icon: './icons/Tourism icon (136).png'
             },
             {
                 type: 'Boating',
@@ -123,43 +123,10 @@ const packages = {
           },
           {
             type: 'Signt Seeing',
-            icon: './icons/cycling.png'
+            icon: './icons/Tourism icon (136).png'
           },
           ]
     },
-  MeghalayaNH7WeekenderStudentPackage:{
-    description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
-        We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
-    places: `Jowai, NH7 Weekender, Khransuri waterfall`,
-    gallery: [{
-      type: 'image',
-      image: './NH7_weekender.jpg'
-    },
-      {
-        type: 'image',
-        image: './Krangshuri Waterfall.jpg'
-      },
-      {
-        type: 'image',
-        image: './Rover_sDen1.jpg'
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
-      }],
-    activities: [
-      {
-        type: 'Camping',
-        icon: './icons/cycling.png'
-      },
-      {
-        type: 'Signt Seeing',
-        icon: './icons/cycling.png'
-      },
-    ]
-  },
   AssamRoverAdventurerPackage:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
     You simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
@@ -186,7 +153,7 @@ const packages = {
     activities: [
       {
         type: 'Signt Seeing',
-        icon: './icons/cycling.png'
+        icon: './icons/Tourism icon (136).png'
       },
       {
         type: 'Elephant Safari',
@@ -275,7 +242,7 @@ const packages = {
     activities: [
       {
         type: 'Signt Seeing',
-        icon: './icons/cycling.png'
+        icon: './icons/Tourism icon (136).png'
       },
     ]
   },
@@ -308,7 +275,7 @@ const packages = {
       },
       {
         type: 'Signt Seeing',
-        icon: './icons/cycling.png'
+        icon: './icons/Tourism icon (136).png'
       },
       {
         type: 'Road Trip',
