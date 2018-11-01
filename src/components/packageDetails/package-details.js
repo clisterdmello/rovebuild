@@ -331,7 +331,7 @@ class PackageDetails extends React.Component {
 
     render() {
         const { group, pkgid } = this.props.match.params;
-        const packagesDetails = packages[`${group + pkgid}`];
+        const selectedPackageDetails = packages[`${group.toLowerCase() + pkgid.toLowerCase()}`];
         return (<div className="banner bannerOther">
             <Header />
             <div className="wrapper mainContentPadding">
@@ -340,13 +340,17 @@ class PackageDetails extends React.Component {
 
                     <div className="detailSectionTitle">Package Description</div>
                     <div className="detailSectionDescription">
-                        {packagesDetails.description}
+                        {selectedPackageDetails.description}
+                    </div>
+                    <div className="detailSectionTitle">Explored places</div>
+                    <div className="detailSectionDescription">
+                        {selectedPackageDetails.places}
                     </div>
                     <div id="packageOfferings">
                         <div className="fecilitypics">
                             <PackageCarousal timer="0" showArrows="true">
                                 {
-                                    packagesDetails.gallery.map((slide, index) => {
+                                    selectedPackageDetails.gallery.map((slide, index) => {
                                         return <p key={index}> {slide.type === 'image' && <img src={pathToPachageImages(slide.image, true)} alt={slide.image} />}
                                             {slide.type === 'video' && <iframe width="400" height="400" src="https://www.youtube.com/embed/zZIMK04bvnU" ></iframe>}</p>
                                     })
@@ -358,7 +362,7 @@ class PackageDetails extends React.Component {
                             <h2>Activities</h2>
                             <table><tbody>
                                 {
-                                    packagesDetails.activities.map((slide, index) => {
+                                    selectedPackageDetails.activities.map((slide, index) => {
                                         return <tr key={index}>
                                             <td>{slide.type}</td>
                                             <td><img src={pathToPachageImages(slide.icon, true)} alt={slide.type} title={slide.type} /></td>
@@ -388,8 +392,9 @@ class PackageDetails extends React.Component {
 
                 </section>
                 <footer>
-
-
+                    <div id="callMeBack" onClick={()=>{window.scroll(0, window.document.body.offsetHeight)}}>
+                           Request callback
+                    </div>
                 </footer>
             </div>
         </div>)

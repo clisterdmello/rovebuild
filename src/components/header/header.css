@@ -225,7 +225,8 @@ menu ul li a:hover {
 }
 
 .socialMedia a  img{
-  width:50px;
+    width: 40px;
+    margin: 3px 0 0 5px;
 }
 
 /*Need Help*/
@@ -259,6 +260,7 @@ menu ul li a:hover {
     font-size: 18px;
     font-style: normal;
 }
+#needHelp address a{color:#000;text-decoration: none;}
 
 #needHelp form input {
     display: block;
@@ -374,16 +376,19 @@ menu ul li a:hover {
 }
 
 .detailSectionTitle {
-    margin-top: 20px;
+    margin-top: 21px;
     font-size: 18px;
     text-decoration: underline;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 
 .detailSectionDescription {
     font-size: 16px;
+    font-family: arial;
 }
+#packageItinerary{
 
+}
 #packageOfferings {
     display: flex;
     padding: 5px;
@@ -439,13 +444,13 @@ menu ul li a:hover {
     width:30%   
 }
 #packageOfferings .carousal{
-    height:400px;
+    height: 364px;
 }
 
 #packageOfferings .leftArrow, #packageOfferings  .rightArrow{    
     height: 26%;
     font-size: 33px;
-    margin: 22% 0 0 0;
+    margin: 18% 0 0 0;
 }
 
 .fecilitydetails img {
@@ -482,4 +487,20 @@ menu ul li a:hover {
     color: #fff;
     margin-top: 26px;
     border: 0;
+}
+#callMeBack{
+    position: fixed;
+    top: 200px;
+    right: 5%;
+    font-size: 15px;
+    text-align: center;
+    background: url('../../assets/callBack.png');
+    line-height: 17px;
+    padding-top: 44px;
+    padding-bottom: 31px;
+    cursor: pointer;
+    width: 81px;
+    padding-left: 22px;
+    color: #fff;
+    padding-right: 6px;
 }
