@@ -3,8 +3,8 @@ import Header from '../../components/header/Header';
 import PackageCarousal from '../../components/packageCarousal';
 const pathToPachageImages = require.context('../../assets/', true);
 const packages = {
-    meghalayaweekenderspecial:{
-        description: `The picturesque land of North East India has 
+  meghalayaweekenderspecial:{
+    description: `The picturesque land of North East India has 
         amazing and limitless offerings for you. 
         Add to that the Happiest Music Festival, 
         you have an offer you can’t refuse! 
@@ -12,122 +12,122 @@ const packages = {
         by topping it up with our irresistible sightseeing packages for Meghalaya. 
         Among many gems in the state are Shillong, Cherrapunji and Jaintia Hills. 
         The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless. `,
-        places: 'Shillong,Jowai, NH7 Weekender, Dawki, Mawlyngnong, Bangladesh border, Living root bridge, Cherrapunji, Chand-Dubi Jungle Camp',
-        gallery: [{
-            type: 'image',
-            image: './NH7_weekender.jpg'
-        },
-          {
-            type: 'image',
-            image: './Rover_sDen1.jpg'
-          },
-          {
-            type: 'image',
-            image: './Rover_sDen2.jpg'
-          },
-          {
-            type: 'image',
-            image: './Rover_sDen3.jpg'
-          },
-          {
-            type: 'video',
-            video: 'https://www.youtube.com/embed/zZIMK04bvnU'
-          }],
-        activities: [
-            {
-                type: 'Camping',
-                icon: './icons/Camping.png'
-            },
-            {
-                type: 'Signt Seeing',
-                icon: './icons/Tourism icon (136).png'
-            },
-            {
-                type: 'Boating',
-                icon: './icons/cycling.png'
-            },
-            {
-                type: 'Trekking',
-                icon: './icons/cycling.png'
-            }
-        ]
+    places: 'Shillong,Jowai, NH7 Weekender, Dawki, Mawlyngnong, Bangladesh border, Living root bridge, Cherrapunji, Chand-Dubi Jungle Camp',
+    gallery: [{
+      type: 'image',
+      image: './NH7_weekender.jpg'
     },
-    meghalayaexploremeghalaya:{
-        description: `The picturesque land of North East India has amazing and limitless offerings for you. 
+      {
+        type: 'image',
+        image: './Rover_sDen1.jpg'
+      },
+      {
+        type: 'image',
+        image: './Rover_sDen2.jpg'
+      },
+      {
+        type: 'image',
+        image: './Rover_sDen3.jpg'
+      },
+      {
+        type: 'video',
+        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+      }],
+    activities: [
+      {
+        type: 'Camping',
+        icon: './icons/Camping.png'
+      },
+      {
+        type: 'Signt Seeing',
+        icon: './icons/SightSeeing.png'
+      },
+      {
+        type: 'Boating',
+        icon: './icons/Boating.png'
+      },
+      {
+        type: 'Trekking',
+        icon: './icons/Trekking.png'
+      }
+    ]
+  },
+  meghalayaexploremeghalaya:{
+    description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         You simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
         A few steps away, an unseen beautiful waterfall might be waiting for you. 
         Among many gems some most popular are Shillong, Cherrapunji and Dawki. 
         The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
-        places: `Cherrapunjee, Dawki, Mawlyngnong, Shillong `,
-        gallery: [{
-            type: 'image',
-            image: './Cherrapunji.jpg'
-        },
-          {
-            type: 'image',
-            image: './Dawki 2.jpg'
-          },
-          {
-            type: 'image',
-            image: './Mawlyngnong.jpg'
-          },
-          {
-            type: 'image',
-            image: './Polo Orchid Cherrapunjee2.jpg'
-          },
-        {
-            type: 'video',
-            video: 'https://www.youtube.com/embed/zZIMK04bvnU'
-        }],
-        activities: [
-            {
-                type: 'Signt Seeing',
-                icon: './icons/Tourism icon (136).png'
-            },
-            {
-                type: 'Boating',
-                icon: './icons/cycling.png'
-            },
-            {
-                type: 'Trekking',
-                icon: './icons/cycling.png'
-            },
-        ]
+    places: `Cherrapunjee, Dawki, Mawlyngnong, Shillong `,
+    gallery: [{
+      type: 'image',
+      image: './Cherrapunji.jpg'
     },
-    meghalayanh7weekenderstudentpackage:{
-      description: `The picturesque land of North East India has amazing and limitless offerings for you. 
+      {
+        type: 'image',
+        image: './Dawki 2.jpg'
+      },
+      {
+        type: 'image',
+        image: './Mawlyngnong.jpg'
+      },
+      {
+        type: 'image',
+        image: './Polo Orchid Cherrapunjee2.jpg'
+      },
+      {
+        type: 'video',
+        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+      }],
+    activities: [
+      {
+        type: 'Signt Seeing',
+        icon: './icons/SightSeeing.png'
+      },
+      {
+        type: 'Boating',
+        icon: './icons/Boating.png'
+      },
+      {
+        type: 'Trekking',
+        icon: './icons/Trekking.png'
+      },
+    ]
+  },
+  meghalayanh7weekenderstudentpackage:{
+    description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         Add to that the Happiest Music Festival, you have an offer you can’t refuse! 
         We’ll amplify your experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to Krangshuri Waterfall. 
         The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
-      places: `Jowai, NH7 Weekender, Khransuri waterfall`,
-      gallery: [{
-        type: 'image',
-        image: './NH7_weekender.jpg'
-      },
-        {
-          type: 'image',
-          image: './Krangshuri Waterfall.jpg'
-        },
-        {
-          type: 'image',
-          image: './Rover_sDen1.jpg'
-        },
-          {
-            type: 'video',
-            video: 'https://www.youtube.com/embed/zZIMK04bvnU'
-          }],
-      activities: [
-          {
-            type: 'Camping',
-            icon: './icons/Camping.png'
-          },
-          {
-            type: 'Signt Seeing',
-            icon: './icons/Tourism icon (136).png'
-          },
-          ]
+    places: `Jowai, NH7 Weekender, Khransuri waterfall`,
+    gallery: [{
+      type: 'image',
+      image: './NH7_weekender.jpg'
     },
-  assamRoveradventurerpackage:{
+      {
+        type: 'image',
+        image: './Krangshuri Waterfall.jpg'
+      },
+      {
+        type: 'image',
+        image: './Rover_sDen1.jpg'
+      },
+      {
+        type: 'video',
+        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+      }],
+    activities: [
+      {
+        type: 'Camping',
+        icon: './icons/Camping.png'
+      },
+      {
+        type: 'Signt Seeing',
+        icon: './icons/SightSeeing.png'
+      },
+    ]
+  },
+  assamroveradventurerpackage:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
     You simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
     A few steps away, an unseen beautiful waterfall might be waiting for you. 
@@ -153,7 +153,7 @@ const packages = {
     activities: [
       {
         type: 'Signt Seeing',
-        icon: './icons/Tourism icon (136).png'
+        icon: './icons/SightSeeing.png'
       },
       {
         type: 'Elephant Safari',
@@ -169,11 +169,11 @@ const packages = {
       },
       {
         type: 'Boating',
-        icon: './icons/cycling.png'
+        icon: './icons/Boating.png'
       },
       {
         type: 'Campfire',
-        icon: './icons/cycling.png'
+        icon: './icons/CampFire.png'
       },
     ]
   },
@@ -201,7 +201,7 @@ const packages = {
     activities: [
       {
         type: 'Jungle Trekking',
-        icon: './icons/cycling.png'
+        icon: './icons/Trekking.png'
       },
       {
         type: 'Camping',
@@ -242,7 +242,7 @@ const packages = {
     activities: [
       {
         type: 'Signt Seeing',
-        icon: './icons/Tourism icon (136).png'
+        icon: './icons/SightSeeing.png'
       },
     ]
   },
@@ -275,7 +275,7 @@ const packages = {
       },
       {
         type: 'Signt Seeing',
-        icon: './icons/Tourism icon (136).png'
+        icon: './icons/SightSeeing.png'
       },
       {
         type: 'Road Trip',
@@ -316,7 +316,7 @@ const packages = {
       },
       {
         type: 'Trekking',
-        icon: './icons/cycling.png'
+        icon: './icons/Trekking.png'
       },
     ]
   },
@@ -346,6 +346,14 @@ class PackageDetails extends React.Component {
                     <div className="detailSectionDescription">
                         {selectedPackageDetails.places}
                     </div>
+                  <div className="detailSectionTitle">Package Costing</div>
+                  <div className="detailSectionDescription">
+                    <ul>
+                      <li>21,875//- per person (Luxury basic/ standard)</li>
+                      <li>16,250/-  per person (economic/ budget)  2 person twin sharing</li>
+
+                    </ul>
+                  </div>
                     <div id="packageOfferings">
                         <div className="fecilitypics">
                             <PackageCarousal timer="0" showArrows="true">
@@ -393,7 +401,7 @@ class PackageDetails extends React.Component {
                 </section>
                 <footer>
                     <div id="callMeBack" onClick={()=>{window.scroll(0, window.document.body.offsetHeight)}}>
-                           Request callback
+                           Want us to call you
                     </div>
                 </footer>
             </div>
