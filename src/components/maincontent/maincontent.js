@@ -100,7 +100,6 @@ class MainContent extends React.Component {
       <div className="wrapper famousPackages">
         <h2 className="center"><span className="borderBtm">Famous Packages</span></h2>
         <div className="packageContainer">
-
           {
             favPackages.map((unit, index) => {
               return <div key={index} title={unit.location + ' ' + unit.name}>
@@ -111,8 +110,6 @@ class MainContent extends React.Component {
                 </Link>
               </div>
             })}
-
-
         </div>
       </div>
       <div id="aboutUs">
