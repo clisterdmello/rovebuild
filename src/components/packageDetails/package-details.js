@@ -206,7 +206,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        video: 'https://youtu.be/Mx52iOmYbXs'
       }],
     activities: [
       {
@@ -250,7 +250,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        video: 'https://youtu.be/He30qWhDnig'
       }],
     activities: [
       {
