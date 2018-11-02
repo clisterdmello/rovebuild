@@ -143,15 +143,15 @@ const packages = {
     places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
     gallery: [{
       type: 'image',
-      image: './nag1.jpg',
+      image: './Living root bridge.jpg',
     },
       {
         type: 'image',
-        image: './nag1.jpg',
+        image: './meg3.jpg',
       },
       {
         type: 'image',
-        image: './nag1.jpg',
+        image: './kaziranga-elephant-safari-3.jpg',
       },
       {
         type: 'video',
@@ -242,11 +242,11 @@ const packages = {
     },
       {
         type: 'image',
-        image: './sik1.jpg'
+        image: './sik2.jpg'
       },
       {
         type: 'image',
-        image: './sik1.jpg'
+        image: './sik3.jpg'
       },
       {
         type: 'video',
@@ -274,11 +274,11 @@ const packages = {
     },
       {
         type: 'image',
-        image: './ap1.jpg'
+        image: './tawang2.jpg'
       },
       {
         type: 'image',
-        image: './ap1.jpg'
+        image: './tawang3.jpg'
       },
       {
         type: 'video',
