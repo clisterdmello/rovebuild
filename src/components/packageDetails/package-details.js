@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../../components/header/Header';
+import Enquire from '../../components/enquire/enquire';
 import PackageCarousal from '../../components/packageCarousal';
 const pathToPachageImages = require.context('../../assets/', true);
 const packages = {
@@ -398,8 +399,8 @@ class PackageDetails extends React.Component {
                             
                                 {
                                     selectedPackageDetails.activities.map((slide, index) => {
-                                      return <div key={index}>
-                                              <img src={pathToPachageImages(slide.icon, true)} alt={slide.type} title={slide.type} />
+                                      return <div key={index} title={slide.type}>
+                                              <img src={pathToPachageImages(slide.icon, true)} alt={slide.type}  />
                                             </div>
                                       })
                                 }
@@ -409,18 +410,7 @@ class PackageDetails extends React.Component {
 
                     </div>
                     <div className="signiningForm center">
-                        <form action="">
-                            <table>
-                                <tbody>
-                                <tr>
-                                    <td><input type="text"  placeholder="Name"/></td>
-                                    <td><input type="Email" placeholder="Email"/></td>
-                                    <td><input type="text" placeholder="Contact"/></td>
-                                    <td><input type="Submit" value="Enquire" /></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </form>
+                        <Enquire/>
                     </div>
 
                 </section>

@@ -1,8 +1,8 @@
 import React from 'react';
-import Banner from '../../assets/bestpackage1.jpg';
+import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import PackageCarousal from '../../components/packageCarousal';
-import { Link } from 'react-router-dom';
+import Enquire from '../../components/enquire/enquire';
 const pathToPachageImages = require.context('../../assets/', true);
 const favPackages = [
   {
@@ -128,13 +128,7 @@ class MainContent extends React.Component {
         <h2 className="center"><span className="borderBtm">Contact Us</span></h2>
         <div id="contactmeans">
           <section className="wrapper">
-
-            <form>
-              <input type="text" placeholder="Name" />
-              <input type="Email" placeholder="Email"/>
-              <input type="text" placeholder="Contact" />
-              <input type="submit" value="Enquire" />
-            </form>
+            <Enquire/>
             <address>
               <p>Rove Northeast (1,381.53 km) 781007</p>
               <p>Dr. B. Barooah Road, Ulubari</p>
