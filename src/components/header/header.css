@@ -9,8 +9,8 @@ body, html {
     text-align: center !important;
 }
 
-.paleGreen {
-    background-color: #5cb55e;
+.colorGreen{
+    color: #5cb55e;
 }
 
 .wrapper {
@@ -241,6 +241,7 @@ menu ul li a:hover {
     width: 100%; 
 }
 
+
 #needHelp span.borderBtm {
     color: #000;
     border-bottom: 1px solid #e4e4e4;
@@ -250,7 +251,7 @@ menu ul li a:hover {
     letter-spacing: 0.04em;
 }
 
-#needHelp form {
+#needHelp .enquiryWrapper {
     width: 34%;
     float: left;
     margin: 60px 0 0 15%;

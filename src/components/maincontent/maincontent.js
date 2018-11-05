@@ -127,7 +127,8 @@ class MainContent extends React.Component {
         <h2 className="center"><span className="borderBtm">Contact Us</span></h2>
         <div id="contactmeans">
           <section className="wrapper">
-            <Enquire/>
+            <div className="enquiryWrapper"><Enquire/></div>
+            
             <address>
               <p>Rove Northeast (1,381.53 km) 781007</p>
               <p>Dr. B. Barooah Road, Ulubari</p>

@@ -7,24 +7,31 @@ class Enquire extends React.Component {
       name: '',
       email: '',
       contact: '',
-      isValid: true
+      url: '',
+      isValid: true,
+      ismailSent: true
     }
     this.changeHandler = this.changeHandler.bind(this);
     this.submitHandler = this.submitHandler.bind(this);
   }
   changeHandler(e) {
-    this.setState({[e.target.name]: e.target.value });
+    this.setState({ [e.target.name]: e.target.value });
   }
   submitHandler(e) {
     e.preventDefault();
+    const { name, email, contact } = this.state;
     const request = new XMLHttpRequest();
-    request.open('POST', '/email/email.php', true);
+    const url = `/email/email.php?name=${name}&email=${email}&contact=${contact}`;
+    request.open('GET', url, true);
     request.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
-    request.send(this.state);
+    this.setState({ ismailSent: request.send() });
   }
 
   render() {
-    return <form onSubmit={this.submitHandler}>
+    return <React.Fragment>
+      {this.state.ismailSent &&<span className="colorGreen">Thanks for contacting us, we will get back to you shortly</span>}
+      {!this.state.ismailSent &&<span>Something went wrong, please try again later</span>}
+      {this.state.ismailSent === null &&<form onSubmit={this.submitHandler}>
       <input type="text"
         name="name"
         onChange={this.changeHandler}
@@ -46,11 +53,14 @@ class Enquire extends React.Component {
         onChange={this.changeHandler}
         value={this.state.contact}
         placeholder="Contact No" />
+      <input type="hidden"
+        readOnly
+        value={window.location.url} />
       <input type="submit"
         name="enquire"
         id="enquire"
         value="Enquire" />
-    </form>
+      </form>}</React.Fragment>
   }
 
 }
