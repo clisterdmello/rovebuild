@@ -353,7 +353,6 @@ class PackageDetails extends React.Component {
     }
 
     render() {
-      debugger;
         const { group, pkgid } = this.props.match.params;
         const selectedPackageDetails = packages[`${group.toLowerCase().split(' ').join('') + pkgid.toLowerCase().split(' ').join('')}`];
         return (<div className="banner bannerOther">
@@ -410,8 +409,8 @@ class PackageDetails extends React.Component {
 
 
                     </div>
-                    <div className="signiningForm center">
-                        <Enquire/>
+                    <div className="signiningForm center">                    
+                        <Enquire group={group} pkgid={pkgid} />
                     </div>
 
                 </section>

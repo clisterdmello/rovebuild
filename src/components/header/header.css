@@ -489,3 +489,8 @@ menu ul li a:hover {
     padding-right: 5px;
     padding: 30px 5px 33px 6px;
 }
+/*enquire */
+.feedback{
+    margin: -5px 0 9px 0;
+    display: block;
+}
