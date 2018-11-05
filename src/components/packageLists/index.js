@@ -1,63 +1,62 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
-
 const pathToPachageImages = require.context('../../assets/', true);
 
 const packages = {
     meghalaya: [
         {
             url: '../package/Meghalaya/WeekenderSpecial',
-            image: './NH7_weekender.jpg',
+            image: './packages/icons/NH7_weekender.jpg',
             name: 'NH7 Weekender Student Package',
             location: 'Meghalaya'
 
         },
         {
             url: '../package/Meghalaya/ExploreMeghalaya',
-            image: './Cherrapunji.jpg',
+            image: './packages/icons/Cherrapunji.jpg',
             name: 'Explore Meghalaya',
             location: 'Meghalaya'
 
         },
         {
             url: '../package/Meghalaya/NH7WeekenderStudentPackage',
-            image: './Krangshuri Waterfall.jpg',
+            image: './packages/icons/Krangshuri-Waterfall.jpg',
             name: 'NH7 Weekender Student Package',
             location: 'Meghalaya'
         }],
     assam: [
         {
             url: '../package/Assam/RoverAdventurerPackage',
-            image: './nag1.jpg',
+            image: './packages/icons/nag1.jpg',
             name: 'Rover Adventurer Package',
             location: 'Assam'
 
         },
         {
             url: '../package/Assam/ManasSafariPackage',
-            image: './Manas national park.jpg',
+            image: './packages/icons/Manas-national-park.jpg',
             name: 'Manas Safari Package',
             location: 'Assam'
         }],
     sikkim: [
         {
             url: '../package/Sikkim/HoneymoonPackage',
-            image: './sik1.jpg',
+            image: './packages/icons/sikkimHoneymoon.jpg',
             name: 'Honeymoon Package',
             location: 'Sikkim'
         }],
     arunachalpradesh: [
         {
             url: '../package/ArunachalPradesh/ExploringTawang',
-            image: './ap1.jpg',
+            image: './packages/icons/ap1.jpg',
             name: 'Explore Tawang',
             location: 'ArunachalPradesh'
         }],
     nagaland: [
         {
             url: '../package/Nagaland/TrekRouteToValleyOfFlower',
-            image: './nag1.jpg',
+            image: './packages/icons/nag1.jpg',
             name: 'Trek Route To Valley Of Flower',
             location: 'Nagaland'
         }],

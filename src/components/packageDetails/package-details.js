@@ -16,19 +16,19 @@ const packages = {
     places: 'Shillong,Jowai, NH7 Weekender, Dawki, Mawlyngnong, Bangladesh border, Living root bridge, Cherrapunji, Chand-Dubi Jungle Camp',
     gallery: [{
       type: 'image',
-      image: './NH7_weekender.jpg'
+      image: './packages/large/NH7_weekender.jpg'
     },
       {
         type: 'image',
-        image: './Rover_sDen1.jpg'
+        image: './packages/large/Rover_sDen1.jpg'
       },
       {
         type: 'image',
-        image: './Rover_sDen2.jpg'
+        image: './packages/large/Rover_sDen2.jpg'
       },
       {
         type: 'image',
-        image: './Rover_sDen3.jpg'
+        image: './packages/large/Rover_sDen3.jpg'
       },
       {
         type: 'video',
@@ -63,19 +63,19 @@ const packages = {
     places: `Cherrapunjee, Dawki, Mawlyngnong, Shillong  `,
     gallery: [{
       type: 'image',
-      image: './Cherrapunji.jpg'
+      image: './packages/large/Cherrapunji.jpg'
     },
       {
         type: 'image',
-        image: './Dawki 2.jpg'
+        image: './packages/large/Dawki-2.jpg'
       },
       {
         type: 'image',
-        image: './Mawlyngnong.jpg'
+        image: './packages/large/Mawlyngnong.jpg'
       },
       {
         type: 'image',
-        image: './Polo Orchid Cherrapunjee2.jpg'
+        image: './packages/large/Polo-Orchid-Cherrapunjee2.jpg'
       },
       {
         type: 'video',
@@ -107,15 +107,15 @@ const packages = {
     places: `Jowai, NH7 Weekender, Khransuri waterfall`,
     gallery: [{
       type: 'image',
-      image: './NH7_weekender.jpg'
+      image: './packages/large/NH7_weekender.jpg'
     },
       {
         type: 'image',
-        image: './Krangshuri Waterfall.jpg'
+        image: './packages/large/Krangshuri-Waterfall.jpg'
       },
       {
         type: 'image',
-        image: './Rover_sDen1.jpg'
+        image: './packages/large/Rover_sDen1.jpg'
       },
       {
         type: 'video',
@@ -144,15 +144,15 @@ const packages = {
     places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
     gallery: [{
       type: 'image',
-      image: './Living root bridge.jpg',
+      image: './packages/large/Living-root-mabridge.jpg',
     },
       {
         type: 'image',
-        image: './meg3.jpg',
+        image: './packages/large/meg3.jpg',
       },
       {
         type: 'image',
-        image: './kaziranga-elephant-safari-3.jpg',
+        image: './packages/large/kaziranga-elephant-safari-3.jpg',
       },
       {
         type: 'video',
@@ -195,15 +195,15 @@ const packages = {
     places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
     gallery: [{
       type: 'image',
-      image: './Manas national park.jpg'
+      image: './packages/large/Manas-national-park.jpg'
     },
       {
         type: 'image',
-        image: './smiling tusker elephant camp.jpg'
+        image: './packages/large/smiling-tusker-elephant-camp.jpg'
       },
       {
         type: 'image',
-        image: './smiling tusker elephant camp 2.jpg'
+        image: './packages/large/smiling-tusker-elephant-camp-2.jpg'
       },
       {
         type: 'video',
@@ -239,15 +239,15 @@ const packages = {
     places: `Gangtok, Tsomgo Lake/Changu Lake`,
     gallery: [{
       type: 'image',
-      image: './sik1.jpg'
+      image: './packages/large/sikkim-honeymoon-1.jpg'
     },
       {
         type: 'image',
-        image: './sik2.jpg'
+        image: './packages/large/sikkim-honeymoon-2.jpg'
       },
       {
         type: 'image',
-        image: './sik3.jpg'
+        image: './packages/large/sik3.jpg'
       },
       {
         type: 'video',
@@ -271,15 +271,15 @@ const packages = {
     places: `Guwahati, Tezpur, Dirang, Tawang, bomdila`,
     gallery: [{
       type: 'image',
-      image: './ap1.jpg'
+      image: './packages/large/ap1.jpg'
     },
       {
         type: 'image',
-        image: './tawang2.jpg'
+        image: './packages/large/tawang2.jpg'
       },
       {
         type: 'image',
-        image: './tawang3.jpg'
+        image: './packages/large/tawang3.jpg'
       },
       {
         type: 'video',
@@ -311,15 +311,15 @@ const packages = {
     places: `Kohima, Dzukou Valley`,
     gallery: [{
       type: 'image',
-      image: './nag1.jpg'
+      image: './packages/large/nag1.jpg'
     },
       {
         type: 'image',
-        image: './na2.jpg'
+        image: './packages/large/na2.jpg'
       },
       {
         type: 'image',
-        image: './nag2.jpg'
+        image: './packages/large/nag2.jpg'
       },
       {
         type: 'video',

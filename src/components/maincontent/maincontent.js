@@ -6,43 +6,43 @@ import Enquire from '../../components/enquire/enquire';
 const pathToPachageImages = require.context('../../assets/', true);
 const favPackages = [
   {
-    url: '../package/ArunachalPradesh/ExploringTawang',
-    image: './ap1.jpg',
+    url: '../packages/ArunachalPradesh/ExploringTawang',
+    image: './packages/icons/ap1.jpg',
     name: 'Exploring Tawang',
     location: 'in Arunachal Pradesh',
     duration: ' 5 Nights and 6 Days'
   },
   {
-    url: '../package/Nagaland/TrekRouteToValleyOfFlower',
-    image: './nag1.jpg',
+    url: '../packages/Nagaland/TrekRouteToValleyOfFlower',
+    image: './packages/icons/nag1.jpg',
     name: 'Trek Route to Valley of Flower',
     location: 'in Nagaland',
     duration: ' 4 Nights and 5 Days'
   },
   {
-    url: '../package/Meghalaya/WeekenderSpecial',
-    image: './NH7_weekender.jpg',
+    url: '../packages/Meghalaya/WeekenderSpecial',
+    image: './packages/icons/NH7_weekender.jpg',
     name: 'Weekender Special 1-6 November ',
     location: 'in Meghalaya',
     duration: ' 6 Nights and 7 Days'
   },
   {
-    url: '../package/Assam/RoverAdventurerPackage',
-    image: './nag1.jpg',
+    url: '../packages/Assam/RoverAdventurerPackage',
+    image: './packages/icons/assam.jpg',
     name: 'Rover Adventurer Package',
     location: 'in Assam & Meghalaya',
     duration: ' 5 Nights and 6 Days'
   },
   {
-    url: '../package/Meghalaya/ExploreMeghalaya',
-    image: './Cherrapunji.jpg',
+    url: '../packages/Meghalaya/ExploreMeghalaya',
+    image: './packages/icons/Cherrapunji.jpg',
     name: 'Explore Meghalaya',
     location: '',
     duration: ' 2 Nights and 3 Days'
   },
   {
-    url: '../package/Assam/ManasSafariPackage',
-    image: './Manas national park.jpg',
+    url: '../packages/Assam/ManasSafariPackage',
+    image: './packages/icons/Manas-national-park.jpg',
     name: 'Manas Safari package',
     location: 'in Assam',
     duration: ' 2 Nights and 3 Days'
@@ -74,25 +74,24 @@ class MainContent extends React.Component {
     return (<div style={{ backgroundColor: '#fff' }}>
       <div>
         <Header />
-        <PackageCarousal timer="3000" showArrows="true">
-          <p ><Link to="/package/meghalaya">
-            <img src={require('../../assets/meg3.jpg')} />
+        <PackageCarousal timer="6000" showArrows="true">
+          <p ><Link to="/packages/meghalaya">
+            <img src={require('../../assets/main/meg3.jpg')} />
+          </Link></p>
+          <p ><Link to="/packages/nagaland">
+            <img src={require('../../assets/main/nag1.jpg')} />
           </Link>
           </p>
-          <p ><Link to="/package/nagaland">
-            <img src={require('../../assets/nag1.jpg')} />
+          <p><Link to="/packages/sikkim">
+            <img src={require('../../assets/main/sik1.jpg')} />
           </Link>
           </p>
-          <p><Link to="/package/sikkim">
-            <img src={require('../../assets/sik1.jpg')} />
+          <p><Link to="/packages/assam">
+            <img src={require('../../assets/main/assam.jpg')} />
           </Link>
           </p>
-          <p><Link to="/package/assam">
-            <img src={require('../../assets/assam.jpg')} />
-          </Link>
-          </p>
-          <p><Link to="/package/arunachalpradesh">
-            <img src={require('../../assets/ap1.jpg')} />
+          <p><Link to="/packages/arunachalpradesh">
+            <img src={require('../../assets/main/ap1.jpg')} />
           </Link>
           </p>
         </PackageCarousal>
