@@ -12,7 +12,7 @@ const packages = {
         We’ll amplify your experience of the Bacardi NH7 Weekender 
         by topping it up with our irresistible sightseeing  packages for Meghalaya. 
         Among many gems in the state are Shillong, Cherrapunji and  Jaintia Hills. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will leave you speechless.  `,
+        The bewildering richness of flora and fauna, amazing scenic beauty will leave you speechless.  `,
     places: 'Shillong,Jowai, NH7 Weekender, Dawki, Mawlyngnong, Bangladesh border, Living root bridge, Cherrapunji, Chand-Dubi Jungle Camp',
     gallery: [{
       type: 'image',
@@ -59,7 +59,7 @@ const packages = {
   meghalayaexploremeghalaya:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. You  simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
         A few steps away, an unseen  beautiful waterfall might be waiting for you. Among many gems some most popular are  Shillong, Cherrapunji and Dawki. 
-        The bewildering richness of flora &amp; fauna, amazing scenic  beauty will leave you speechless.`,
+        The bewildering richness of flora and fauna, amazing scenic  beauty will leave you speechless.`,
     places: `Cherrapunjee, Dawki, Mawlyngnong, Shillong  `,
     gallery: [{
       type: 'image',
@@ -103,7 +103,7 @@ const packages = {
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
         We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will  leave you speechless.`,
+        The bewildering richness of flora and fauna, amazing scenic beauty will  leave you speechless.`,
     places: `Jowai, NH7 Weekender, Khransuri waterfall`,
     gallery: [{
       type: 'image',
@@ -140,7 +140,7 @@ const packages = {
     You  simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
     A few steps away, an unseen  beautiful waterfall might be waiting for you. 
     Among many gems some most popular are  Kaziranga and Nameri National Parks, Shillong, and Cherrapunji. 
-    The bewildering richness  of flora &amp; fauna, amazing scenic beauty will leave you speechless.`,
+    The bewildering richness  of flora and fauna, amazing scenic beauty will leave you speechless.`,
     places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
     gallery: [{
       type: 'image',
@@ -232,10 +232,11 @@ const packages = {
     ]
   },
   sikkimhoneymoonpackage:{
-    description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
-        We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will  leave you speechless.`,
+    description: `Sikkim has an extravaganza of natural beauty and landscape which makes it perhaps 
+    one of the most beautiful places on the planet. 
+    The endowment of natural beauty from the Great Himalayas makes it a paradise and there is no
+    other place one likes to be for their honeymoon then in paradise. 
+    Honeymoon in Sikkim is something which every honeymoon couple would desire. `,
     places: `Gangtok, Tsomgo Lake/Changu Lake`,
     gallery: [{
       type: 'image',
@@ -264,11 +265,11 @@ const packages = {
     ]
   },
   arunachalpradeshexploretawang:{
-    description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
-        We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will  leave you speechless.`,
-    places: `Guwahati, Tezpur, Dirang, Tawang, bomdila`,
+    description: `Tawang is one of the most beautiful districts of Arunachal Pradesh. 
+    From natural marvels to man-made wonders, the place has them all. 
+    Therefore, we have designed a tour package that tenders you the chance of witnessing every 
+    gem of Tawang. Be it the orchid garden, colorful tribes, warm valleys or ancient monasteries, 
+    we take you to every place that perfectly defines an excursion to Tawang.`,
     gallery: [{
       type: 'image',
       image: './packages/large/ap1.jpg'
@@ -304,10 +305,12 @@ const packages = {
     ]
   },
   nagalandtrekroutetovalleyofflower:{
-    description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-        Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
-        We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
-        The bewildering richness of flora &amp; fauna, amazing scenic beauty will  leave you speechless.`,
+    description: `Valley of Flowers is one trek where many people begin their journey of trekking in the Himalayas
+    It is one of those rare natural botanical gardens in India.
+    Flowers bloom everywhere in a riot of colours. 
+    On one side of the flower-decked valley tall cliffs climb to the sky. 
+    The other side is guarded by snow-clad mountains. A serene river glides through the middle of the valley. 
+    If there is a picturesque setting that is perfect, then this must be it.`,
     places: `Kohima, Dzukou Valley`,
     gallery: [{
       type: 'image',
