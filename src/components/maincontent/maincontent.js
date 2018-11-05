@@ -13,35 +13,35 @@ const favPackages = [
     duration: ' 5 Nights and 6 Days'
   },
   {
-    url: '../packages/Nagaland/Trek Route To Valley Of Flower',
+    url: '../package/Nagaland/Trek Route To Valley Of Flower',
     image: './packages/icons/nag1.jpg',
     name: 'Trek Route to Valley of Flower',
     location: 'in Nagaland',
     duration: ' 4 Nights and 5 Days'
   },
   {
-    url: '../packages/Meghalaya/Weekender Special',
+    url: '../package/Meghalaya/Weekender Special',
     image: './packages/icons/NH7_weekender.jpg',
     name: 'Weekender Special 1-6 November ',
     location: 'in Meghalaya',
     duration: ' 6 Nights and 7 Days'
   },
   {
-    url: '../packages/Assam/Rover Adventurer Package',
+    url: '../package/Assam/Rover Adventurer Package',
     image: './packages/icons/assam.jpg',
     name: 'Rover Adventurer Package',
     location: 'in Assam & Meghalaya',
     duration: ' 5 Nights and 6 Days'
   },
   {
-    url: '../packages/Meghalaya/Explore Meghalaya',
+    url: '../package/Meghalaya/Explore Meghalaya',
     image: './packages/icons/Cherrapunji.jpg',
     name: 'Explore Meghalaya',
     location: '',
     duration: ' 2 Nights and 3 Days'
   },
   {
-    url: '../packages/Assam/Manas Safari Package',
+    url: '../package/Assam/Manas Safari Package',
     image: './packages/icons/Manas-national-park.jpg',
     name: 'Manas Safari package',
     location: 'in Assam',
