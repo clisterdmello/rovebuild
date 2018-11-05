@@ -144,7 +144,7 @@ const packages = {
     places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
     gallery: [{
       type: 'image',
-      image: './packages/large/Living-root-mabridge.jpg',
+      image: './packages/large/Living-root-bridge.jpg',
     },
       {
         type: 'image',
@@ -263,7 +263,7 @@ const packages = {
       '21,875/- per person (luxury standard) (2 person group) (twin sharing)','16,250/-  per person (Economic) (2 person group) (twin sharing)',
     ]
   },
-  arunachalpradeshexploringtawang:{
+  arunachalpradeshexploretawang:{
     description: `The picturesque land of North East India has amazing and limitless offerings for you. 
         Add to  that the Happiest Music Festival, you have an offer you can’t refuse! 
         We’ll amplify your  experience of the Bacardi NH7 Weekender by topping it up with our irresistible trip to  Krangshuri Waterfall. 
@@ -353,8 +353,9 @@ class PackageDetails extends React.Component {
     }
 
     render() {
+      debugger;
         const { group, pkgid } = this.props.match.params;
-        const selectedPackageDetails = packages[`${group.toLowerCase() + pkgid.toLowerCase()}`];
+        const selectedPackageDetails = packages[`${group.toLowerCase().split(' ').join('') + pkgid.toLowerCase().split(' ').join('')}`];
         return (<div className="banner bannerOther">
             <Header />
             <div className="wrapper mainContentPadding">
