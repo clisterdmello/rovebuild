@@ -55,7 +55,7 @@ class MainContent extends React.Component {
     const { match: { path } } = this.props;
     if (path.indexOf('help') > -1) {
       setTimeout(() => {
-        window.scroll(0, window.document.body.offsetHeight);
+        window.scroll(0, document.body.scrollHeight);
       }, 1);
     }
   }
@@ -63,13 +63,11 @@ class MainContent extends React.Component {
     let { match: { path } } = this.props;
     if (path.indexOf('help') > -1) {
       setTimeout(() => {
-        window.scroll(0, window.document.body.offsetHeight);
+        window.scroll(0, document.body.scrollHeight);
       }, 200);
     }
   }
-  scrollToSpecificPoint() {
-    window.scroll(0, window.document.body.offsetHeight);
-  }
+ 
   render() {
     return (<div style={{ backgroundColor: '#fff' }}>
       <div>
@@ -103,9 +101,9 @@ class MainContent extends React.Component {
             favPackages.map((unit, index) => {
               return <div key={index} title={unit.location + ' ' + unit.name}>
                 <Link to={unit.url}>
-                  <img src={pathToPachageImages(unit.image, true)} alt={unit.location + unit.name} />
-                  <span>{unit.name} {unit.location}</span>
-                  <span>{unit.duration}</span>
+                  <p><span>{unit.name} {unit.location}</span><span>{unit.duration}</span></p>
+                  <img src={pathToPachageImages(unit.image, true)} alt={unit.location + unit.name} />          
+                  
                 </Link>
               </div>
             })}
