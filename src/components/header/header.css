@@ -174,25 +174,23 @@ menu ul li a:hover {
 }
 
 .packageContainer {
-    margin-top: 40px;
+    margin: 40px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .packageContainer div{
-    width:30%;
+    width:30%;position: relative;margin: 20px 0;
 }
-.packageContainer div img{width:100%;border-radius: 5px;}
-.famousPackages span:last-child{border-radius: 5px;}
+.packageContainer div img{width: 100%;border-radius: 5px;}
+.famousPackages span:last-child{border-radius:0 0 5px 5px;}
 
+.packageContainer div p{position: absolute;width:100%;bottom: 0;}
 .packageContainer div span {
-    display: block;
-    position: relative;
-    top: -63px;
     background: #2f4a54;
     padding: 8px;
     padding-bottom: 4px;
-    color: #fff;
+    color: #fff;display:block;
 }
 
 /*About us Section*/
@@ -476,6 +474,7 @@ menu ul li a:hover {
     border: 0;
     cursor: pointer;    
 }
+
 #callMeBack{
     position: fixed;
     top: 200px;
