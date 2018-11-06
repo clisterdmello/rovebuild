@@ -388,7 +388,7 @@ class PackageDetails extends React.Component {
                                 {
                                     selectedPackageDetails.gallery.map((slide, index) => {
                                         return <p key={index}> {slide.type === 'image' && <img src={pathToPachageImages(slide.image, true)} alt={slide.image} />}
-                                            {slide.type === 'video' && <iframe width="400" height="350" src="https://www.youtube.com/embed/zZIMK04bvnU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>}</p>
+                                            {slide.type === 'video' && <iframe width="400" height="350" src={slide.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>}</p>
                                     })
                                 }
 
