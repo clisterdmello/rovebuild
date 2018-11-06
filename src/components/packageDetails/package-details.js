@@ -32,7 +32,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
       }],
     activities: [
       {
@@ -79,7 +79,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
       }],
     activities: [
       {
@@ -119,7 +119,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
       }],
     activities: [
       {
@@ -156,7 +156,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        video: 'https://www.youtube.com/embed/Zw2z3ha9Yhk'
       }],
     activities: [
       {
@@ -207,7 +207,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://youtu.be/Mx52iOmYbXs'
+        video: 'https://www.youtube.com/embed/Mx52iOmYbXs'
       }],
     activities: [
       {
@@ -252,7 +252,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://youtu.be/He30qWhDnig'
+        video: 'https://www.youtube.com/embed/He30qWhDnig'
       }],
     activities: [
       {
@@ -284,7 +284,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        video: 'https://www.youtube.com/embed/u5q6UDZ4_BM'
       }],
     activities: [
       {
@@ -326,7 +326,7 @@ const packages = {
       },
       {
         type: 'video',
-        video: 'https://www.youtube.com/embed/zZIMK04bvnU'
+        video: 'https://www.youtube.com/embed/CTR3BTl_er4'
       }],
     activities: [
       {
