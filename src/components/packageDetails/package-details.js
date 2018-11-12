@@ -15,9 +15,13 @@ const packages = {
         The bewildering richness of flora and fauna, amazing scenic beauty will leave you speechless.  `,
     places: 'Shillong,Jowai, NH7 Weekender, Dawki, Mawlyngnong, Bangladesh border, Living root bridge, Cherrapunji, Chand-Dubi Jungle Camp',
     gallery: [{
+      type: 'video',
+      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
+      },
+      {
       type: 'image',
       image: './packages/large/NH7_weekender.jpg'
-    },
+      },
       {
         type: 'image',
         image: './packages/large/Rover_sDen1.jpg'
@@ -29,10 +33,6 @@ const packages = {
       {
         type: 'image',
         image: './packages/large/Rover_sDen3.jpg'
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
       }],
     activities: [
       {
@@ -57,14 +57,19 @@ const packages = {
     ]
   },
   meghalayaexploremeghalaya:{
-    description: `The picturesque land of North East India has amazing and limitless offerings for you. You  simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
-        A few steps away, an unseen  beautiful waterfall might be waiting for you. Among many gems some most popular are  Shillong, Cherrapunji and Dawki. 
-        The bewildering richness of flora and fauna, amazing scenic  beauty will leave you speechless.`,
+    description: `From 'levitating' boats to 'living' bridges, Meghalaya is truly mystical. The balmy fresh
+    air, the delicious cuisines and the affable people will leave you wanting for more.
+    Whether you are a tourist and or a traveler, the Rock Capital of  Northeast India has
+      something to offer for everyone.`,
     places: `Cherrapunjee, Dawki, Mawlyngnong, Shillong  `,
     gallery: [{
+      type: 'video',
+      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
+      },
+      {
       type: 'image',
       image: './packages/large/Cherrapunji.jpg'
-    },
+      },
       {
         type: 'image',
         image: './packages/large/Dawki-2.jpg'
@@ -76,10 +81,6 @@ const packages = {
       {
         type: 'image',
         image: './packages/large/Polo-Orchid-Cherrapunjee2.jpg'
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
       }],
     activities: [
       {
@@ -106,9 +107,13 @@ const packages = {
         The bewildering richness of flora and fauna, amazing scenic beauty will  leave you speechless.`,
     places: `Jowai, NH7 Weekender, Khransuri waterfall`,
     gallery: [{
+      type: 'video',
+      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
+      },
+      {
       type: 'image',
       image: './packages/large/NH7_weekender.jpg'
-    },
+      },
       {
         type: 'image',
         image: './packages/large/Krangshuri-Waterfall.jpg'
@@ -116,10 +121,6 @@ const packages = {
       {
         type: 'image',
         image: './packages/large/Rover_sDen1.jpg'
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
       }],
     activities: [
       {
@@ -136,16 +137,19 @@ const packages = {
     ]
   },
   assamroveradventurerpackage:{
-    description: `The picturesque land of North East India has amazing and limitless offerings for you. 
-    You  simply can’t arrive and claim, “That’s it, I’ve seen it all”. 
-    A few steps away, an unseen  beautiful waterfall might be waiting for you. 
-    Among many gems some most popular are  Kaziranga and Nameri National Parks, Shillong, and Cherrapunji. 
-    The bewildering richness  of flora and fauna, amazing scenic beauty will leave you speechless.`,
-    places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
+    description: `What's life without a little adventure? Presenting to you a package which promises to
+    awaken your inner adventurer and take you on an adrenaline filled tour. 
+    From Safaris to River Rafting to Treks, the list goes on. Are you ready? Merry memories
+    await you! `,
+    places:`Nameri, Kaziranga, Shillong, Dawki, Mawlynnong, Cherapunji, Chand Dubi`,
     gallery: [{
+      type: 'video',
+      video: 'https://www.youtube.com/embed/Mx52iOmYbXs'
+      },
+      {
       type: 'image',
       image: './packages/large/Living-root-bridge.jpg',
-    },
+      },
       {
         type: 'image',
         image: './packages/large/meg3.jpg',
@@ -153,10 +157,6 @@ const packages = {
       {
         type: 'image',
         image: './packages/large/kaziranga-elephant-safari-3.jpg',
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/Zw2z3ha9Yhk'
       }],
     activities: [
       {
@@ -189,14 +189,18 @@ const packages = {
     ]
   },
   assammanassafaripackage:{
-    description: `The enchanting Manas National Park is waiting to blow your mind with its bewildering 
-    beauty  and its diversity of flora and fauna. Experience it at its best with us with our stays in 
-    cottage  tents and outdoor tents and our elephant safari and Jeep safari!  `,
-    places:`Nameri, Kaziranga, shillong, dawki, Double-decker Root Bridge, Mawlynnong, Living Root Bridge, Cherrapunji, Chand Dubi`,
+    description: `"Wilderness without wildlife is just scenery". Endemic to endangered species of animals,
+    witness a vast range of fauna while we accomodate you in cozy comfortable cottages.
+    By the end of the tour you'll realize how truly awesome, Assam is!`,
+    places:`Manas National Park`,
     gallery: [{
+      type: 'video',
+      video: 'https://www.youtube.com/embed/sc9HsSW31Zc'
+      },
+      {
       type: 'image',
       image: './packages/large/Manas-national-park.jpg'
-    },
+      },
       {
         type: 'image',
         image: './packages/large/smiling-tusker-elephant-camp.jpg'
@@ -204,10 +208,6 @@ const packages = {
       {
         type: 'image',
         image: './packages/large/smiling-tusker-elephant-camp-2.jpg'
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/Mx52iOmYbXs'
       }],
     activities: [
       {
@@ -232,16 +232,18 @@ const packages = {
     ]
   },
   sikkimhoneymoonpackage:{
-    description: `Sikkim has an extravaganza of natural beauty and landscape which makes it perhaps 
-    one of the most beautiful places on the planet. 
-    The endowment of natural beauty from the Great Himalayas makes it a paradise and there is no
-    other place one likes to be for their honeymoon then in paradise. 
-    Honeymoon in Sikkim is something which every honeymoon couple would desire. `,
+    description: `After fulfilling the nuptial responsibities, it's time to unwind. Go somewhere special with
+    your loved one and make memories for a lifetime. Nature has been really kind to Sikkim
+    making it a perfect place to take your perfect partner for life. Happiness Guaranteed!`,
     places: `Gangtok, Tsomgo Lake/Changu Lake`,
     gallery: [{
+      type: 'video',
+      video: 'https://www.youtube.com/embed/He30qWhDnig'
+      },
+      {
       type: 'image',
       image: './packages/large/sikkim-honeymoon-1.jpg'
-    },
+      },
       {
         type: 'image',
         image: './packages/large/sikkim-honeymoon-2.jpg'
@@ -249,10 +251,6 @@ const packages = {
       {
         type: 'image',
         image: './packages/large/sik3.jpg'
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/He30qWhDnig'
       }],
     activities: [
       {
@@ -265,15 +263,19 @@ const packages = {
     ]
   },
   arunachalpradeshexploretawang:{
-    description: `Tawang is one of the most beautiful districts of Arunachal Pradesh. 
-    From natural marvels to man-made wonders, the place has them all. 
-    Therefore, we have designed a tour package that tenders you the chance of witnessing every 
-    gem of Tawang. Be it the orchid garden, colorful tribes, warm valleys or ancient monasteries, 
-    we take you to every place that perfectly defines an excursion to Tawang.`,
+    description: ` Some of the most beautiful sceneries you will ever witness in your lifetime! Frozen
+    lakes, orchid gardens, ancient monasteries can just be a glimpse of your expectations
+    of the tour. Arunachal Pradesh is in a league of its own, when it comes to natural
+    landscapes. `,
+    places: `Nameri, Bomdila, Tawang, Dirang`,
     gallery: [{
+      type: 'video',
+      video: 'https://www.youtube.com/embed/u5q6UDZ4_BM'
+      },
+      {
       type: 'image',
       image: './packages/large/ap1.jpg'
-    },
+      },
       {
         type: 'image',
         image: './packages/large/tawang2.jpg'
@@ -281,10 +283,6 @@ const packages = {
       {
         type: 'image',
         image: './packages/large/tawang3.jpg'
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/u5q6UDZ4_BM'
       }],
     activities: [
       {
@@ -305,17 +303,19 @@ const packages = {
     ]
   },
   nagalandtrekroutetovalleyofflower:{
-    description: `Valley of Flowers is one trek where many people begin their journey of trekking in the Himalayas
-    It is one of those rare natural botanical gardens in India.
-    Flowers bloom everywhere in a riot of colours. 
-    On one side of the flower-decked valley tall cliffs climb to the sky. 
-    The other side is guarded by snow-clad mountains. A serene river glides through the middle of the valley. 
-    If there is a picturesque setting that is perfect, then this must be it.`,
+    description: `"Don't just exist, live! "
+    Tired of your routine life? Challenge yourself with one of the most famous and charming
+    treks in the country. Home to the fabled Dzukou Lily, the enthralling trek will take you
+    through an unforgettable experience! Perfect for breaking the monotony of life.`,
     places: `Kohima, Dzukou Valley`,
     gallery: [{
+      type: 'video',
+      video: 'https://www.youtube.com/embed/CTR3BTl_er4'
+      },
+      {
       type: 'image',
       image: './packages/large/nag1.jpg'
-    },
+      },
       {
         type: 'image',
         image: './packages/large/na2.jpg'
@@ -323,10 +323,6 @@ const packages = {
       {
         type: 'image',
         image: './packages/large/nag2.jpg'
-      },
-      {
-        type: 'video',
-        video: 'https://www.youtube.com/embed/CTR3BTl_er4'
       }],
     activities: [
       {
@@ -368,7 +364,7 @@ class PackageDetails extends React.Component {
                     <div className="detailSectionDescription">
                         {selectedPackageDetails.description}
                     </div>
-                    <div className="detailSectionTitle">Explored places</div>
+                    <div className="detailSectionTitle">Places To Explore</div>
                     <div className="detailSectionDescription">
                         {selectedPackageDetails.places}
                     </div>

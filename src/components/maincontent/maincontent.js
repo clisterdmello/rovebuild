@@ -112,13 +112,11 @@ class MainContent extends React.Component {
       <div id="aboutUs">
         <h2 className="center"><span className="borderBtm">About Us</span></h2>
         <div className="wrapper aboutUsDesc">
-          <div>Rove Northeast is an organisation providing a gateway for adventure
-            seekers and travellers across the globe to explore the virgin lands of
-            mystical Northeast India. Apart from working as a travel agency, we
-                encapsulate a social motive</div>
-          <div> within to spread the glory and scenic
-            raw beauty of the seven sisters that has remained unexplored and
-                hidden. So get ready to discover Northeast in a new light!</div>
+          <div>What started as a pioneering group facilitating Birding activities in Assam has now
+            transformed into an all encompassing tourism company with an aim to provide hassle-
+            free service in Northeast India. Come, Lets "Rove" Northeast</div>
+          <div>We are a one stop destination for all tourism needs in Northeast India. Rent a car, rent a
+            room, rent a boat! You name it we bring it.</div>
         </div>
       </div>
       <div id="needHelp">
