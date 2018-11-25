@@ -1,21 +1,22 @@
 import React from "react";
-import Header from './components/header/Header';
 import MainContent from './components/maincontent/maincontent';
-import SearchResults from './components/searchResults/search-results';
+import PackageLists from './components/packageLists/';
 import PackageDetails from './components/packageDetails/package-details';
-import Cart from './components/cart/cart';
 import './components/header/header.css';
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 class App extends React.Component {
     render() {
         return (
             <div>
-                <Header />
-                <Route exact path='/' component={MainContent} />
-                <Route path='/results' component={SearchResults} />
-                <Route path='/detail' component={PackageDetails} />
-                <Route path='/cart' component={Cart} />
+                <Switch>
+                    <Route exact path='/' component={MainContent} />
+                    <Route exact path='/help' component={MainContent} />
+                    <Route exact path='/callus' component={MainContent} />
+                    <Route exact path='/packages'  component={PackageLists} />
+                    <Route exact path='/package/:group' component={PackageLists} />
+                    <Route exact path='/package/:group/:pkgid' component={PackageDetails} />
+                </Switch>
             </div>);
     }
 };
