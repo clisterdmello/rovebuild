@@ -361,8 +361,8 @@ class PackageDetails extends React.Component {
     return (<div className="banner bannerOther">
       <Header />
       <div className="container wrapper mainContentPadding">
-        <section className="packageDetails row">
-
+        <h2 className="center titleDetailsPage">{pkgid}</h2>
+        <section className="packageDetails row">        
           <div id="packageOfferings">
             <div className="fecilitypics">
               <PackageCarousal timer="0" showArrows="true">
@@ -376,12 +376,22 @@ class PackageDetails extends React.Component {
             </div>
           </div>
 
-          <h2 className="center titleDetailsPage p-lr-2">{pkgid}</h2>
+          
 
           <div className="detailSectionTitle p-lr-2">Package Description</div>
           <div className="detailSectionDescription p-lr-2">
             {selectedPackageDetails.description}
           </div>
+          <div className="fecilitydetails col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <h2>Activities</h2>
+              {
+                selectedPackageDetails.activities.map((slide, index) => {
+                  return <div key={index} title={slide.type}>
+                    <img src={pathToPachageImages(slide.icon, true)} alt={slide.type} />
+                  </div>
+                })
+              }
+            </div>
           <div className="detailSectionTitle p-lr-2">Places To Explore</div>
           <div className="detailSectionDescription p-lr-2">
             {selectedPackageDetails.places}
@@ -396,27 +406,14 @@ class PackageDetails extends React.Component {
               }
             </ul>
           </div>
-          <div>
-            <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+         
+            {/* <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12">
               <NextList
 
                 content=""
                 max="7"
                 defaultSelected="1" />
-            </div>
-            <div className="fecilitydetails col-lg-4 col-md-4 col-sm-4 col-xs-12">
-              <h2>Activities</h2>
-              {
-                selectedPackageDetails.activities.map((slide, index) => {
-                  return <div key={index} title={slide.type}>
-                    <img src={pathToPachageImages(slide.icon, true)} alt={slide.type} />
-                  </div>
-                })
-              }
-            </div>
-          </div>
-
-
+            </div> */}
           <div className="signiningForm center col-lg-12 col-md-12 col-xs-12 ">
             <Enquire group={group} pkgid={pkgid} />
           </div>

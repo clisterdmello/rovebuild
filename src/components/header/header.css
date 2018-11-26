@@ -361,8 +361,8 @@ footer {
 
 .titleDetailsPage {
     font-weight: lighter;
-    padding: 27px 0 0 0;
-    color: #1d4e14;
+    padding: 57px 0 0 0;
+    color: #fff;
 }
 
 .detailSectionTitle {
@@ -393,37 +393,29 @@ footer {
     line-height: 26px;
 }
 .itinary{flex: 2;}
-.fecilitydetails {
-    display: inline-block;
-   
-    margin: 20px 0 0 0;
+.fecilitydetails{
+    padding-bottom: 20px;
 }
 .fecilitydetails h2 {
     font-size: 18px;
-    text-align: center;
-    font-weight: normal;
-    border-bottom: 1px solid #d8d8d8;
-    padding: 6px 0 9px 0;
-    color:#1d4e14;
+    padding: 20px 0;
+    color: #1d4e14;
+    margin: 0 0 0px 0;
 }
 .fecilitydetails div{
-    width: 50%;
     display: inline-block;
-    text-align: center;
-    padding: 16px 0px;
-    border-bottom: 1px solid #d8d8d8;
+    margin: 0 18px 0 0;
 }
-.fecilitydetails div:hover {
-    background: #fdfdfd;
-}
+
 .fecilitydetails img {
-    width: 35px;
+    width: 40px;
 }
 #packageOfferings .carousal{
     height: 364px;
 }
 .signiningForm {
-    padding: 43px 0;
+    padding: 30px 0;
+    border-top: 1px solid #e0e0e0;
 }
 .signiningForm input {
     padding: 7px;
