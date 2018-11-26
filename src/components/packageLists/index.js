@@ -81,7 +81,7 @@ class PackageLists extends React.Component {
         return (<div className="banner bannerOther">
             <Header />
             <div className="mainContentPadding"></div>
-            <div className="container searchResults">
+            <div className="container wrapper searchResults">
                 <h2 className="center headTitle" >List Of packages</h2>
                 <div className="searchResultListing row">
                     {

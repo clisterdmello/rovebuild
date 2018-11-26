@@ -360,8 +360,8 @@ class PackageDetails extends React.Component {
     const selectedPackageDetails = packages[`${group.toLowerCase().split(' ').join('') + pkgid.toLowerCase().split(' ').join('')}`];
     return (<div className="banner bannerOther">
       <Header />
-      <div className="wrapper mainContentPadding">
-        <section className="packageDetails">
+      <div className="container wrapper mainContentPadding">
+        <section className="packageDetails row">
 
           <div id="packageOfferings">
             <div className="fecilitypics">
@@ -396,13 +396,15 @@ class PackageDetails extends React.Component {
               }
             </ul>
           </div>
-          <div className="flex p-lr-2">
-            <NextList
-              content=""
-              max="7"
-              defaultSelected="1" />
+          <div>
+            <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+              <NextList
 
-            <div className="fecilitydetails">
+                content=""
+                max="7"
+                defaultSelected="1" />
+            </div>
+            <div className="fecilitydetails col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <h2>Activities</h2>
               {
                 selectedPackageDetails.activities.map((slide, index) => {
@@ -411,12 +413,11 @@ class PackageDetails extends React.Component {
                   </div>
                 })
               }
-
             </div>
           </div>
 
 
-          <div className="signiningForm center">
+          <div className="signiningForm center col-lg-12 col-md-12 col-xs-12 ">
             <Enquire group={group} pkgid={pkgid} />
           </div>
 

@@ -41,8 +41,6 @@ body, html {
 footer {
     min-height: 60px;
 }
-
-
 #header ul li {
     list-style: none;
     padding: 20px 0 0 20px;
@@ -397,7 +395,7 @@ footer {
 .itinary{flex: 2;}
 .fecilitydetails {
     display: inline-block;
-    width: 30%;
+   
     margin: 20px 0 0 0;
 }
 .fecilitydetails h2 {

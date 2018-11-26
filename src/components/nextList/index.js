@@ -14,6 +14,8 @@ class NextList extends React.Component {
             ["POINT1", "POINT4"],
             ["POINT1", "POINT1"],
             ["POINT1", "POINT1"],
+            ["POINT1", "POINT1"],
+            ["POINT1", "POINT1"],
         ]
 
     }
@@ -45,7 +47,7 @@ class NextList extends React.Component {
 
             <div className="listingDetails">
                 <ul>
-                    {this.content[this.state.currentNumber].map(point => <li>{point}</li>)}
+                    {this.content[this.state.currentNumber].map((point, index) => <li key={index}>{point}</li>)}
                 </ul>
             </div>
         </div>)
