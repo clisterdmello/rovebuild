@@ -2,6 +2,7 @@ import React from "react";
 import MainContent from './components/maincontent/maincontent';
 import PackageLists from './components/packageLists/';
 import PackageDetails from './components/packageDetails/package-details';
+import 'bootstrap/dist/css/bootstrap.css';
 import './components/header/header.css';
 import { Route, Switch } from 'react-router-dom'
 

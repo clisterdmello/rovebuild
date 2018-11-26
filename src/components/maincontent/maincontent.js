@@ -70,9 +70,10 @@ class MainContent extends React.Component {
  
   render() {
     return (<div style={{ backgroundColor: '#fff' }}>
-      <div>
+      <div >
         <Header />
-        <PackageCarousal timer="6000" showArrows="true">
+
+        <PackageCarousal timer="0" showArrows="true">
           <p ><Link to="/package/meghalaya">
             <img src={require('../../assets/main/meg3.jpg')} />
           </Link></p>
@@ -93,15 +94,16 @@ class MainContent extends React.Component {
           </Link>
           </p>
         </PackageCarousal>
+      
       </div>
-      <div className="wrapper famousPackages">
+      <div className="container famousPackages">
         <h2 className="center"><span className="borderBtm">Famous Packages</span></h2>
-        <div className="packageContainer">
+        <div className="packageContainer row">
           {
             favPackages.map((unit, index) => {
-              return <div key={index} title={unit.location + ' ' + unit.name}>
+              return <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12" key={index} title={unit.location + ' ' + unit.name}>
                 <Link to={unit.url}>
-                  <p><span>{unit.name} {unit.location}</span><span>{unit.duration}</span></p>
+                  <p className="col-lg-4 col-md-4 col-sm-6 col-xs-12"><span>{unit.name} {unit.location}</span><span>{unit.duration}</span></p>
                   <img src={pathToPachageImages(unit.image, true)} alt={unit.location + unit.name} />          
                   
                 </Link>
@@ -109,23 +111,23 @@ class MainContent extends React.Component {
             })}
         </div>
       </div>
-      <div id="aboutUs">
+      <div id="aboutUs" className="container-fluid">
         <h2 className="center"><span className="borderBtm">About Us</span></h2>
-        <div className="wrapper aboutUsDesc">
-          <div>What started as a pioneering group facilitating Birding activities in Assam has now
+        <div className="row aboutUsDesc ">
+          <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">What started as a pioneering group facilitating Birding activities in Assam has now
             transformed into an all encompassing tourism company with an aim to provide hassle-
             free service in Northeast India. Come, Lets "Rove" Northeast</div>
-          <div>We are a one stop destination for all tourism needs in Northeast India. Rent a car, rent a
+          <div  className="col-lg-6 col-md-6 col-sm-6 col-xs-12">We are a one stop destination for all tourism needs in Northeast India. Rent a car, rent a
             room, rent a boat! You name it we bring it.</div>
         </div>
       </div>
-      <div id="needHelp">
+      <div id="needHelp" className="container">
         <h2 className="center"><span className="borderBtm">Contact Us</span></h2>
         <div id="contactmeans">
-          <section className="wrapper">
-            <div className="enquiryWrapper"><Enquire/></div>
+          <section className="row">
+            <div className="enquiryWrapper col-lg-6 col-md-6 col-sm-6 col-xs-12"><Enquire/></div>
             
-            <address>
+            <address className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <p>Rove Northeast (1,381.53 km) 781007</p>
               <p>Dr. B. Barooah Road, Ulubari</p>
               <p>Guwahati</p>
