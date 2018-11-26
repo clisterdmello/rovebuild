@@ -81,12 +81,12 @@ class PackageLists extends React.Component {
         return (<div className="banner bannerOther">
             <Header />
             <div className="mainContentPadding"></div>
-            <div className="wrapper searchResults">
+            <div className="container searchResults">
                 <h2 className="center headTitle" >List Of packages</h2>
-                <div className="searchResultListing">
+                <div className="searchResultListing row">
                     {
                         this.computeFinalPackages(pakageCategory).map((unit, index) => {
-                            return <div key={index} className="searchListElement">
+                            return <div key={index} className="searchListElement col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                     <div className="listedPackageDetails" title={unit.location+' ' +unit.name}>
                                         <p><Link to={unit.url}>
                                             <img src={pathToPachageImages(unit.image, true)} alt={unit.location+unit.name} />

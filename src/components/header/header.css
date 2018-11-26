@@ -11,6 +11,7 @@ body, html {
 .p-lr-2{
     padding: 0 20px !important;
 }
+.m0{margin: 0 !important;}
 
 .colorGreen{
     color: #5cb55e;
@@ -27,15 +28,10 @@ body, html {
 }
 
 #header {
-    display: flex;
     position: absolute;
     width: 100%;
     z-index: 1;
     background: #ffffffa6;
-}
-
-#header .logo {
-    margin: 11px 0 0 20px;
 }
 
 .headerCart {
@@ -46,50 +42,51 @@ footer {
     min-height: 60px;
 }
 
-menu {
-    flex: 1;
-}
 
-menu ul {
-    display: table;
-    float: right;
-}
-
-menu ul li {
+#header ul li {
     list-style: none;
-    padding: 0px 27px;
+    padding: 20px 0 0 20px;
 }
-
-menu ul li {
-    display: table-cell;
-    height: 64px;
-    vertical-align: middle;
-}
-
-menu ul li, menu ul li a {
+#header ul li, #header ul li a {
     text-decoration: none;
     font-size: 15px;
     font-family: Century Gothic;
     color: #081c08;
 }
-
-menu ul li a:hover {
+#header ul li a:hover {
     color: #000;
 }
+#header .navbar-toggler{background: transparent;border: none;}
+#header .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNCwxMGgyNGMxLjEwNCwwLDItMC44OTYsMi0ycy0wLjg5Ni0yLTItMkg0QzIuODk2LDYsMiw2Ljg5NiwyLDhTMi44OTYsMTAsNCwxMHogTTI4LDE0SDRjLTEuMTA0LDAtMiwwLjg5Ni0yLDIgIHMwLjg5NiwyLDIsMmgyNGMxLjEwNCwwLDItMC44OTYsMi0yUzI5LjEwNCwxNCwyOCwxNHogTTI4LDIySDRjLTEuMTA0LDAtMiwwLjg5Ni0yLDJzMC44OTYsMiwyLDJoMjRjMS4xMDQsMCwyLTAuODk2LDItMiAgUzI5LjEwNCwyMiwyOCwyMnoiLz48L3N2Zz4=");
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
 
-.helpLine span {
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #header ul li {
+        padding: 0px 10px;
+    }
+}
+
+
+#header ul li.helpLine span {
     display: block;
 }
 
-.helpline-title {
+#header ul li.helpline-title {
     padding-right: 10px;
+    
 }
 
-.helpline-body {
+#header ul li.helpline-body {
     padding-left: 0;
+    padding-top: 10px;
 }
 
-.helpline-body span {
+#header ul li.helpline-body span {
     font-size: 18px;
     font-family: sans-serif;
     font-weight: lighter;
@@ -178,17 +175,17 @@ menu ul li a:hover {
 
 .packageContainer {
     margin: 40px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
-.packageContainer div{
-    width:30%;position: relative;margin: 20px 0;
-}
-.packageContainer div img{width: 100%;border-radius: 5px;}
-.famousPackages span:last-child{border-radius:0 0 5px 5px;}
+.packageContainer  div{margin-bottom: 20px;}
 
-.packageContainer div p{position: absolute;width:100%;bottom: 0;}
+.packageContainer div img{width: 100%;border-radius: 5px;}
+.packageContainer div p{margin: 0;
+    position: absolute;
+    width: 67%;
+    bottom: 0;
+    padding: 0;
+    border-radius: 0 16px 0 0;
+    overflow: hidden;}
 .packageContainer div span {
     background: #2f4a54;
     padding: 8px;
@@ -218,7 +215,6 @@ menu ul li a:hover {
 }
 
 .aboutUsDesc div {
-    width: 40%;
     padding: 5%;
     line-height: 28px;
     color: #fff;
@@ -233,10 +229,10 @@ menu ul li a:hover {
 /*Need Help*/
 
 #needHelp {
-    padding-top: 30px;
+    padding-top: 30px;background: rgb(255, 255, 255);
 }
 #contactmeans{
-    background: rgb(255, 255, 255);
+    
     display: block;
     float: left;
     width: 100%; 
@@ -305,21 +301,6 @@ menu ul li a:hover {
 .resultCount {
     padding: 16px;
     text-align: right;
-}
-
-.searchResultListing {
-    margin: 0 2%;
-    padding: 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-    justify-content: space-between;
-}
-
-.searchListElement {
-    width: 270px;
-    margin-bottom: 30px;
-    border-radius: 4px;
 }
 
 .searchListElement .likeAndCart {
