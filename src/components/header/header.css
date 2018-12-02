@@ -216,7 +216,7 @@ footer {
 }
 
 .aboutUsDesc div {
-    padding: 5%;
+    padding: 5% 1%;
     line-height: 28px;
     color: #fff;
     font-size: 18px;
@@ -243,23 +243,23 @@ footer {
 #needHelp span.borderBtm {
     color: #000;
     border-bottom: 1px solid #e4e4e4;
-    padding: 0 20% 20px 20%;
+    padding: 0 25% 20px 25%;
     font-weight: normal;
     word-spacing: 3px;
     letter-spacing: 0.04em;
 }
 
-#needHelp .enquiryWrapper {
-   
-    margin: 60px 0 0 0;
+#needHelp .enquiryWrapper {   
+    margin-top:60px;
 }
-
+#needHelp .enquiryWrapper form{padding:0;}
 #needHelp address {
     margin: 49px 0 0 0;
     line-height: 31px;
     color: #3e4245;
     font-size: 18px;
     font-style: normal;
+    text-align: right;
 }
 #needHelp address a{color:#000;text-decoration: none;}
 
@@ -487,6 +487,7 @@ padding: 7px;
 .navbar-collapse.show{
     background: #ffffff;
 }
+#needHelp address{text-align: center;}
 }
 
 

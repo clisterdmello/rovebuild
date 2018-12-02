@@ -110,7 +110,7 @@ class MainContent extends React.Component {
       </div>
       <div id="aboutUs" className="container-fluid">
         <h2 className="center"><span className="borderBtm">About Us</span></h2>
-        <div className="row aboutUsDesc ">
+        <div className="container aboutUsDesc ">
           <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">What started as a pioneering group facilitating Birding activities in Assam has now
             transformed into an all encompassing tourism company with an aim to provide hassle-
             free service in Northeast India. Come, Lets "Rove" Northeast</div>
@@ -122,9 +122,11 @@ class MainContent extends React.Component {
         <h2 className="center"><span className="borderBtm">Contact Us</span></h2>
         <div id="contactmeans">
           <section className="row">
-            <div className="enquiryWrapper col-lg-6 col-md-6 col-sm-6 col-xs-12"><Enquire/></div>
+            <div className="enquiryWrapper col-lg-4 col-lg-offset-2 col-md-6 col-sm-6 col-xs-12">
+              <Enquire/>
+            </div>
             
-            <address className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <address className="col-lg-4 col-lg-offset-2 col-md-6 col-sm-6 col-xs-12">
               <p>Rove Northeast (1,381.53 km) 781007</p>
               <p>Dr. B. Barooah Road, Ulubari</p>
               <p>Guwahati</p>
