@@ -368,8 +368,9 @@ class PackageDetails extends React.Component {
               <PackageCarousal timer="0" showArrows="true">
                 {
                   selectedPackageDetails.gallery.map((slide, index) => {
-                    return <p key={index}> {slide.type === 'image' && <img src={pathToPachageImages(slide.image, true)} alt={slide.image} />}
-                      {slide.type === 'video' && <iframe width="400" height="350" src={slide.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>}</p>
+                    return <p key={index}> {slide.type === 'image' && <span style={ { background: `url(${pathToPachageImages(slide.image, true)})` } }>
+                    </span>}
+                      {slide.type === 'video' && <iframe height="360" width="100%" src={slide.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>}</p>
                   })
                 }
               </PackageCarousal>

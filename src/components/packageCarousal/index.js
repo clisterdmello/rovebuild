@@ -18,7 +18,6 @@ class PackageCarousal extends React.Component {
        }
     }
     computeNextIndex(side = 'right') {
-        
     const noOfSlides = this.props.children.length;
     let currentActiveIndex = this.state.currentActiveIndex;
 

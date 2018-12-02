@@ -30,7 +30,7 @@ body, html {
 #header {
     position: absolute;
     width: 100%;
-    z-index: 1;
+    z-index: 3;
     background: #ffffffa6;
 }
 
@@ -60,12 +60,15 @@ footer {
     display: inline-block;
     width: 30px;
     height: 30px;
+    margin-top: 17px;
 }
+.navbar{min-height: 76px;}
 
 @media (min-width: 768px) and (max-width: 991px) {
 
     #header ul li {
         padding: 0px 10px;
+        margin: 0;
     }
 }
 
@@ -247,16 +250,12 @@ footer {
 }
 
 #needHelp .enquiryWrapper {
-    width: 34%;
-    float: left;
-    margin: 60px 0 0 15%;
+   
+    margin: 60px 0 0 0;
 }
 
 #needHelp address {
-    width: 36%;
-    float: left;
     margin: 49px 0 0 0;
-    text-align: right;
     line-height: 31px;
     color: #3e4245;
     font-size: 18px;
@@ -410,15 +409,15 @@ footer {
 .fecilitydetails img {
     width: 40px;
 }
-#packageOfferings .carousal{
+#packageOfferings .carousal .carousalBody{
     height: 364px;
 }
 .signiningForm {
     padding: 30px 0;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;    
 }
 .signiningForm input {
-    padding: 7px;
+padding: 7px;
     border-radius: 4px;
     border: 1px solid #a7a4a4;
     font-size: 12px;
@@ -443,7 +442,7 @@ footer {
     text-align: center;
     background: url('../../assets/callBack.png');
     cursor: pointer;
-    width: 78px;
+    width: 90px;
     color: #ffffff;
     font-family: sans-serif;
     padding-right: 5px;
@@ -454,3 +453,40 @@ footer {
     margin: -5px 0 9px 0;
     display: block;
 }
+
+/*Responsive*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .signiningForm form{width:100%;}
+    .signiningForm input , #needHelp form input{
+        padding: 7px;
+        border-radius: 4px;
+        border: 1px solid #a7a4a4;
+        margin: 20px auto;
+        display: block;
+        width: 80%;
+    }
+    .aboutUsDesc {
+        display: block;
+    }
+    #callMeBack{display: none;}
+    .famousPackages span.borderBtm {
+        padding: 0 0% 20px 0%;
+    }
+    #packageOfferings .leftArrow, #packageOfferings .rightArrow{
+        top: 35%;
+    }
+
+#header ul li.helpline-title, #header ul li.helpline-body{display: inline-block}
+    
+#header ul li.helpline-title {
+    float: left;
+    margin: 0 10px 0 0;
+    
+}
+.navbar-collapse.show{
+    background: #ffffff;
+}
+}
+
+

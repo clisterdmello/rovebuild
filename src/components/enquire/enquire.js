@@ -35,7 +35,7 @@ class Enquire extends React.Component {
   render() {
     return <React.Fragment>
       {this.state.ismailSent && <span className="colorGreen feedback">Thanks for contacting us, we will get back to you shortly</span>}
-      <form onSubmit={this.submitHandler}>
+      {!this.state.ismailSent && <form onSubmit={this.submitHandler} className="col-sm-12">
         <input type="text"
           name="name"
           onChange={this.changeHandler}
@@ -64,7 +64,7 @@ class Enquire extends React.Component {
           name="enquire"
           id="enquire"
           value="Enquire" />
-      </form></React.Fragment>
+      </form>}</React.Fragment>
   }
 
 }

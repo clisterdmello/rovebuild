@@ -73,26 +73,23 @@ class MainContent extends React.Component {
       <div >
         <Header />
 
-        <PackageCarousal timer="0" showArrows="true">
+        <PackageCarousal timer="4000" showArrows="true">
           <p ><Link to="/package/meghalaya">
-            <img src={require('../../assets/main/meg3.jpg')} />
-          </Link></p>
+            <span style={ { backgroundImage: `url(${require('../../assets/main/meg3.jpg')})` } }>
+          </span></Link></p>
           <p ><Link to="/package/nagaland">
-            <img src={require('../../assets/main/nag1.jpg')} />
-          </Link>
-          </p>
+            <span style={ { backgroundImage: `url(${require('../../assets/main/nag1.jpg')})` } }>
+          </span></Link></p>
+
           <p><Link to="/package/sikkim">
-            <img src={require('../../assets/main/sik1.jpg')} />
-          </Link>
-          </p>
+            <span style={ { backgroundImage: `url(${require('../../assets/main/sik1.jpg')})` } }>
+          </span></Link></p>
           <p><Link to="/package/assam">
-            <img src={require('../../assets/main/assam.jpg')} />
-          </Link>
-          </p>
+            <span style={ { backgroundImage: `url(${require('../../assets/main/assam.jpg')})` } }>
+          </span></Link></p>
           <p><Link to="/package/arunachalpradesh">
-            <img src={require('../../assets/main/ap1.jpg')} />
-          </Link>
-          </p>
+            <span style={ { backgroundImage: `url(${require('../../assets/main/ap1.jpg')})` } }>
+          </span></Link></p>
         </PackageCarousal>
       
       </div>
