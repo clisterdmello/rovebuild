@@ -36,7 +36,7 @@ class Header extends React.Component {
                             <span>Call to book </span>
                         </NavItem>
                         <NavItem className="helpLine helpline-body">
-                            <span>+91 9577565655 <br />+91 8473065223</span>
+                          <span><a href="tel:+91-9577565655">+91 9577565655 </a><a href="tel:+91-8473065223"><br />+91 8473065223</a></span>
                         </NavItem>
                         <NavItem>
                             <Link to="/packages">Explore Packages</Link>
