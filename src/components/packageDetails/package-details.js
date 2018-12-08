@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Header from '../../components/header/Header';
 import Enquire from '../../components/enquire/enquire';
 import PackageCarousal from '../../components/packageCarousal';
-import NextList from '../../components/nextList';
 
 
 
@@ -22,7 +21,7 @@ const packages = {
       type: 'image',
       image: './packages/large/NH7_weekender.jpg'
     },
-        {
+    {
       type: 'video',
       video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
     },
@@ -58,6 +57,11 @@ const packages = {
     ],
     costing: [
       '17500/- per person (6 person group)',
+    ],
+    itinary: [
+      ['day 1 activity 1', 'day 1 activity 2'],
+      ['day 2 activity 1', 'day 2 activity 2'],
+      ['day 3 activity 1', 'day 3 activity 2']
     ]
   },
   meghalayaexploremeghalaya: {
@@ -69,8 +73,8 @@ const packages = {
     gallery: [{
       type: 'image',
       image: './packages/large/Cherrapunji.jpg'
-      },
-      {
+    },
+    {
       type: 'video',
       video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
     },
@@ -102,6 +106,11 @@ const packages = {
     ],
     costing: [
       '15,650/- per person (luxury Basic) (4 person group) (twin sharing)', '17,500/-  per person luxury(Premium) (4 person group) (twin sharing)',
+    ],
+    itinary: [
+      ['day 1 activity 1', 'day 1 activity 2'],
+      ['day 2 activity 1', 'day 2 activity 2'],
+      ['day 3 activity 1', 'day 3 activity 2']
     ]
   },
   meghalayanh7weekenderstudentpackage: {
@@ -114,7 +123,7 @@ const packages = {
       type: 'image',
       image: './packages/large/NH7_weekender.jpg'
     },
-      {
+    {
       type: 'video',
       video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
     },
@@ -138,6 +147,11 @@ const packages = {
     ],
     costing: [
       '5,500/- per person (11 person group)',
+    ],
+    itinary: [
+      ['day 1 activity 1', 'day 1 activity 2'],
+      ['day 2 activity 1', 'day 2 activity 2'],
+      ['day 3 activity 1', 'day 3 activity 2']
     ]
   },
   assamroveradventurerpackage: {
@@ -150,7 +164,7 @@ const packages = {
       type: 'image',
       image: './packages/large/Living-root-bridge.jpg',
     },
-      {
+    {
       type: 'video',
       video: 'https://www.youtube.com/embed/Mx52iOmYbXs'
     },
@@ -190,6 +204,11 @@ const packages = {
     ],
     costing: [
       '23,500/- per person (4 person group) (twin sharing)',
+    ],
+    itinary: [
+      ['day 1 activity 1', 'day 1 activity 2'],
+      ['day 2 activity 1', 'day 2 activity 2'],
+      ['day 3 activity 1', 'day 3 activity 2']
     ]
   },
   assammanassafaripackage: {
@@ -201,7 +220,7 @@ const packages = {
       type: 'image',
       image: './packages/large/Manas-national-park.jpg'
     },
-      {
+    {
       type: 'video',
       video: 'https://www.youtube.com/embed/sc9HsSW31Zc'
     },
@@ -233,6 +252,11 @@ const packages = {
     ],
     costing: [
       '8500/- per person (4 person group) (twin sharing)',
+    ],
+    itinary: [
+      ['day 1 activity 1', 'day 1 activity 2'],
+      ['day 2 activity 1', 'day 2 activity 2'],
+      ['day 3 activity 1', 'day 3 activity 2']
     ]
   },
   sikkimhoneymoonpackage: {
@@ -244,7 +268,7 @@ const packages = {
       type: 'image',
       image: './packages/large/sikkim-honeymoon-1.jpg'
     },
-      {
+    {
       type: 'video',
       video: 'https://www.youtube.com/embed/He30qWhDnig'
     },
@@ -264,6 +288,11 @@ const packages = {
     ],
     costing: [
       '21,875/- per person (luxury standard) (2 person group) (twin sharing)', '16,250/-  per person (Economic) (2 person group) (twin sharing)',
+    ],
+    itinary: [
+      ['day 1 activity 1', 'day 1 activity 2'],
+      ['day 2 activity 1', 'day 2 activity 2'],
+      ['day 3 activity 1', 'day 3 activity 2']
     ]
   },
   arunachalpradeshexploretawang: {
@@ -276,7 +305,7 @@ const packages = {
       type: 'image',
       image: './packages/large/ap1.jpg'
     },
-      {
+    {
       type: 'video',
       video: 'https://www.youtube.com/embed/u5q6UDZ4_BM'
     },
@@ -304,6 +333,11 @@ const packages = {
     ],
     costing: [
       '14,999/- per person (6 person group) (twin sharing)',
+    ],
+    itinary: [
+      ['day 1 activity 1', 'day 1 activity 2'],
+      ['day 2 activity 1', 'day 2 activity 2'],
+      ['day 3 activity 1', 'day 3 activity 2']
     ]
   },
   nagalandtrekroutetovalleyofflower: {
@@ -318,17 +352,17 @@ const packages = {
         image: './packages/large/nag1.jpg'
       },
       {
-      type: 'video',
-      video: 'https://www.youtube.com/embed/CTR3BTl_er4'
-    },
-    {
-      type: 'image',
-      image: './packages/large/na2.jpg'
-    },
-    {
-      type: 'image',
-      image: './packages/large/nag2.jpg'
-    }],
+        type: 'video',
+        video: 'https://www.youtube.com/embed/CTR3BTl_er4'
+      },
+      {
+        type: 'image',
+        image: './packages/large/na2.jpg'
+      },
+      {
+        type: 'image',
+        image: './packages/large/nag2.jpg'
+      }],
     activities: [
       {
         type: 'Camping',
@@ -345,6 +379,11 @@ const packages = {
     ],
     costing: [
       '9,999/- per person (11 person group) (twin sharing)',
+    ],
+    itinary: [
+      ['day 1 activity 1', 'day 1 activity 2'],
+      ['day 2 activity 1', 'day 2 activity 2'],
+      ['day 3 activity 1', 'day 3 activity 2']
     ]
   },
 
@@ -363,13 +402,13 @@ class PackageDetails extends React.Component {
       <Header />
       <div className="container wrapper mainContentPadding">
         <h2 className="center titleDetailsPage">{pkgid}</h2>
-        <section className="packageDetails row">        
+        <section className="packageDetails row">
           <div id="packageOfferings">
             <div className="fecilitypics">
               <PackageCarousal timer="0" showArrows="true">
                 {
                   selectedPackageDetails.gallery.map((slide, index) => {
-                    return <p key={index}> {slide.type === 'image' && <span style={ { background: `url(${pathToPachageImages(slide.image, true)})` } }>
+                    return <p key={index}> {slide.type === 'image' && <span style={{ background: `url(${pathToPachageImages(slide.image, true)})` }}>
                     </span>}
                       {slide.type === 'video' && <iframe height="360" width="100%" src={slide.video} frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen="allowfullscreen"></iframe>}</p>
                   })
@@ -378,22 +417,22 @@ class PackageDetails extends React.Component {
             </div>
           </div>
 
-          
+
 
           <div className="detailSectionTitle p-lr-2">Package Description</div>
           <div className="detailSectionDescription p-lr-2">
             {selectedPackageDetails.description}
           </div>
           <div className="fecilitydetails col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <h2>Activities</h2>
-              {
-                selectedPackageDetails.activities.map((slide, index) => {
-                  return <div key={index} title={slide.type}>
-                    <img src={pathToPachageImages(slide.icon, true)} alt={slide.type} />
-                  </div>
-                })
-              }
-            </div>
+            <h2>Activities</h2>
+            {
+              selectedPackageDetails.activities.map((slide, index) => {
+                return <div key={index} title={slide.type}>
+                  <img src={pathToPachageImages(slide.icon, true)} alt={slide.type} />
+                </div>
+              })
+            }
+          </div>
           <div className="detailSectionTitle p-lr-2">Places To Explore</div>
           <div className="detailSectionDescription p-lr-2">
             {selectedPackageDetails.places}
@@ -403,25 +442,37 @@ class PackageDetails extends React.Component {
             <ul id="costing">
               {
                 selectedPackageDetails.costing.map((slide, index) => {
-                  return <li key={slide}>{slide}</li>
+                  return <li key={index}>{slide}</li>
                 })
               }
             </ul>
           </div>
-         
-            {/* <div className="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-              <NextList
+          <div className="detailSectionTitle p-lr-2">Package Itinary</div>
+          <div className="detailSectionDescription p-lr-2 packageItinary">
 
-                content=""
-                max="7"
-                defaultSelected="1" />
-            </div> */}
+            {
+              selectedPackageDetails.itinary.map((itinaryList, index) => {
+                return (<Fragment key={index}>
+                  <p>Day {index + 1}</p>
+                  <ul>
+                    {
+                      itinaryList.map((itinary, index) => <li key={index}>{itinary}</li>)
+                    }
+                  </ul>
+                </Fragment>)
+              })
+            }
+
+          </div>
+
+
+
           <div className="signiningForm center col-lg-12 col-md-12 col-xs-12 ">
             <Enquire group={group} pkgid={pkgid} />
           </div>
 
         </section>
-        <footer class="hidden-xs">
+        <footer className="hidden-xs">
           <div id="callMeBack"
             onClick={() => { window.scroll(0, window.document.body.offsetHeight) }}>
             Want us to call you

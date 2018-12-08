@@ -1,19 +1,27 @@
 body, html {
     font-family: Century Gothic;
     font-weight: normal;
-    height:100%;
-    background:#000;
+    height: 100%;
+    background: #000;
 }
-.flex{display: flex !important;}
+
+.flex {
+    display: flex !important;
+}
+
 .center {
     text-align: center !important;
 }
-.p-lr-2{
+
+.p-lr-2 {
     padding: 0 20px !important;
 }
-.m0{margin: 0 !important;}
 
-.colorGreen{
+.m0 {
+    margin: 0 !important;
+}
+
+.colorGreen {
     color: #5cb55e;
 }
 
@@ -41,20 +49,28 @@ body, html {
 footer {
     min-height: 60px;
 }
+
 #header ul li {
     list-style: none;
     padding: 20px 0 0 20px;
 }
+
 #header ul li, #header ul li a {
     text-decoration: none;
     font-size: 15px;
     font-family: Century Gothic;
     color: #081c08;
 }
+
 #header ul li a:hover {
     color: #000;
 }
-#header .navbar-toggler{background: transparent;border: none;}
+
+#header .navbar-toggler {
+    background: transparent;
+    border: none;
+}
+
 #header .navbar-light .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgMzIgMzIiIHdpZHRoPSIzMnB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNCwxMGgyNGMxLjEwNCwwLDItMC44OTYsMi0ycy0wLjg5Ni0yLTItMkg0QzIuODk2LDYsMiw2Ljg5NiwyLDhTMi44OTYsMTAsNCwxMHogTTI4LDE0SDRjLTEuMTA0LDAtMiwwLjg5Ni0yLDIgIHMwLjg5NiwyLDIsMmgyNGMxLjEwNCwwLDItMC44OTYsMi0yUzI5LjEwNCwxNCwyOCwxNHogTTI4LDIySDRjLTEuMTA0LDAtMiwwLjg5Ni0yLDJzMC44OTYsMiwyLDJoMjRjMS4xMDQsMCwyLTAuODk2LDItMiAgUzI5LjEwNCwyMiwyOCwyMnoiLz48L3N2Zz4=");
     display: inline-block;
@@ -62,15 +78,18 @@ footer {
     height: 30px;
     margin-top: 17px;
 }
-.navbar{min-height: 76px;margin-bottom: 0;}
-@media (min-width: 768px) and (max-width: 991px) {
 
+.navbar {
+    min-height: 76px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
     #header ul li {
         padding: 0px 10px;
         margin: 0;
     }
 }
-
 
 #header ul li.helpLine span {
     display: block;
@@ -78,7 +97,6 @@ footer {
 
 #header ul li.helpline-title {
     padding-right: 10px;
-    
 }
 
 #header ul li.helpline-body {
@@ -176,21 +194,32 @@ footer {
 .packageContainer {
     margin: 40px 0;
 }
-.packageContainer  div{margin-bottom: 20px;}
 
-.packageContainer div img{width: 100%;border-radius: 5px;}
-.packageContainer div p{margin: 0;
+.packageContainer div {
+    margin-bottom: 20px;
+}
+
+.packageContainer div img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.packageContainer div p {
+    margin: 0;
     position: absolute;
     width: 67%;
     bottom: 0;
     padding: 0;
     border-radius: 0 16px 0 0;
-    overflow: hidden;}
+    overflow: hidden;
+}
+
 .packageContainer div span {
     background: #2f4a54;
     padding: 8px;
     padding-bottom: 4px;
-    color: #fff;display:block;
+    color: #fff;
+    display: block;
 }
 
 /*About us Section*/
@@ -221,7 +250,7 @@ footer {
     font-size: 16px;
 }
 
-.socialMedia a  img{
+.socialMedia a img {
     width: 35px;
     margin: 13px 0 0 10px;
 }
@@ -229,15 +258,15 @@ footer {
 /*Need Help*/
 
 #needHelp {
-    padding-top: 30px;background: rgb(255, 255, 255);
-}
-#contactmeans{
-    
-    display: block;
-    float: left;
-    width: 100%; 
+    padding-top: 30px;
+    background: rgb(255, 255, 255);
 }
 
+#contactmeans {
+    display: block;
+    float: left;
+    width: 100%;
+}
 
 #needHelp span.borderBtm {
     color: #000;
@@ -249,10 +278,14 @@ footer {
     padding-bottom: 20px;
 }
 
-#needHelp .enquiryWrapper {   
-    margin-top:60px;
+#needHelp .enquiryWrapper {
+    margin-top: 60px;
 }
-#needHelp .enquiryWrapper form{padding:0;}
+
+#needHelp .enquiryWrapper form {
+    padding: 0;
+}
+
 #needHelp address {
     margin: 49px 0 0 0;
     line-height: 31px;
@@ -261,7 +294,11 @@ footer {
     font-style: normal;
     text-align: right;
 }
-#needHelp address a{color:#000;text-decoration: none;}
+
+#needHelp address a {
+    color: #000;
+    text-decoration: none;
+}
 
 #needHelp form input {
     display: block;
@@ -319,7 +356,10 @@ footer {
     overflow: hidden;
     text-align: center;
 }
-.listedPackageDetails p:first-child{margin-bottom: 20px;}
+
+.listedPackageDetails p:first-child {
+    margin-bottom: 20px;
+}
 
 .listedPackageDetails a {
     display: block;
@@ -377,6 +417,7 @@ footer {
     color: #777d7d;
     line-height: 22px;
 }
+
 #packageOfferings {
     display: flex;
     background: #f1f1f196;
@@ -387,21 +428,23 @@ footer {
     width: 100%;
 }
 
-#costing li{
+#costing li {
     margin: 0 0 0 20px;
     line-height: 26px;
 }
-.itinary{flex: 2;}
-.fecilitydetails{
+
+.fecilitydetails {
     padding-bottom: 20px;
 }
+
 .fecilitydetails h2 {
     font-size: 18px;
     padding: 20px 0;
     color: #1d4e14;
     margin: 0 0 0px 0;
 }
-.fecilitydetails div{
+
+.fecilitydetails div {
     display: inline-block;
     margin: 0 18px 0 0;
 }
@@ -409,13 +452,25 @@ footer {
 .fecilitydetails img {
     width: 40px;
 }
-#packageOfferings .carousal .carousalBody{
+
+#packageOfferings .carousal .carousalBody {
     height: 364px;
 }
+
+.packageItinary p {
+    font-weight: bold;
+}
+
+.packageItinary ul li {
+    margin: 0 0 0 30px;
+    line-height: 28px;
+}
+
 .signiningForm {
     padding: 30px 0;
-    border-top: 1px solid #e0e0e0;    
+    border-top: 1px solid #e0e0e0;
 }
+
 .signiningForm input {
     padding: 7px;
     border-radius: 4px;
@@ -431,10 +486,10 @@ footer {
     background: #3e4245;
     color: #fff;
     border: 0;
-    cursor: pointer;    
+    cursor: pointer;
 }
 
-#callMeBack{
+#callMeBack {
     position: fixed;
     top: 200px;
     right: 5%;
@@ -448,15 +503,17 @@ footer {
     padding-right: 5px;
     padding: 30px 5px 33px 6px;
 }
+
 /*enquire */
-.feedback{
+
+.feedback {
     margin: -5px 0 9px 0;
     display: block;
 }
 
 /*Responsive*/
-@media (max-width: 991px) and (min-width: 768px){
 
+@media (max-width: 991px) and (min-width: 768px) {
     #header ul li {
         padding: 20px 0 0 20px;
     }
@@ -464,8 +521,10 @@ footer {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .signiningForm form{width:100%;}
-    .signiningForm input , #needHelp form input{
+    .signiningForm form {
+        width: 100%;
+    }
+    .signiningForm input, #needHelp form input {
         padding: 7px;
         border-radius: 4px;
         border: 1px solid #a7a4a4;
@@ -476,30 +535,32 @@ footer {
     .aboutUsDesc {
         display: block;
     }
-    #callMeBack{display: none;}
+    #callMeBack {
+        display: none;
+    }
     .famousPackages span.borderBtm {
         padding: 0 0% 20px 0%;
     }
-    #packageOfferings .leftArrow, #packageOfferings .rightArrow{
+    #packageOfferings .leftArrow, #packageOfferings .rightArrow {
         top: 35%;
     }
-
-#header ul li.helpline-title, #header ul li.helpline-body{display: inline-block}
-    
-#header ul li.helpline-title {
-    float: left;
-    margin: 0 10px 0 0;
-    
+    #header ul li.helpline-title, #header ul li.helpline-body {
+        display: inline-block
+    }
+    #header ul li.helpline-title {
+        float: left;
+        margin: 0 10px 0 0;
+    }
+    .navbar-collapse {
+        margin-top: 20px;
+    }
+    #needHelp address {
+        text-align: center;
+    }
+    #needHelp .enquiryWrapper {
+        margin-top: 20px;
+    }
+    .searchResults {
+        margin-bottom: 0;
+    }
 }
-.navbar-collapse{
-    margin-top: 20px;
-}
-#needHelp address{text-align: center;}
-#needHelp .enquiryWrapper {
-    margin-top: 20px;
-}.searchResults {
-    margin-bottom:0;
-}
-}
-
-
