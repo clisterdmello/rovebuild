@@ -19,12 +19,12 @@ const packages = {
         The bewildering richness of flora and fauna, amazing scenic beauty will leave you speechless.  `,
     places: 'Shillong,Jowai, NH7 Weekender, Dawki, Mawlyngnong, Bangladesh border, Living root bridge, Cherrapunji, Chand-Dubi Jungle Camp',
     gallery: [{
-      type: 'video',
-      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
-    },
-    {
       type: 'image',
       image: './packages/large/NH7_weekender.jpg'
+    },
+        {
+      type: 'video',
+      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
     },
     {
       type: 'image',
@@ -67,12 +67,12 @@ const packages = {
       something to offer for everyone.`,
     places: `Cherrapunjee, Dawki, Mawlyngnong, Shillong  `,
     gallery: [{
-      type: 'video',
-      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
-    },
-    {
       type: 'image',
       image: './packages/large/Cherrapunji.jpg'
+      },
+      {
+      type: 'video',
+      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
     },
     {
       type: 'image',
@@ -111,12 +111,12 @@ const packages = {
         The bewildering richness of flora and fauna, amazing scenic beauty will  leave you speechless.`,
     places: `Jowai, NH7 Weekender, Khransuri waterfall`,
     gallery: [{
-      type: 'video',
-      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
-    },
-    {
       type: 'image',
       image: './packages/large/NH7_weekender.jpg'
+    },
+      {
+      type: 'video',
+      video: 'https://www.youtube.com/embed/R-YuZ7uFgKE'
     },
     {
       type: 'image',
@@ -147,12 +147,12 @@ const packages = {
     await you! `,
     places: `Nameri, Kaziranga, Shillong, Dawki, Mawlynnong, Cherapunji, Chand Dubi`,
     gallery: [{
-      type: 'video',
-      video: 'https://www.youtube.com/embed/Mx52iOmYbXs'
-    },
-    {
       type: 'image',
       image: './packages/large/Living-root-bridge.jpg',
+    },
+      {
+      type: 'video',
+      video: 'https://www.youtube.com/embed/Mx52iOmYbXs'
     },
     {
       type: 'image',
@@ -198,12 +198,12 @@ const packages = {
     By the end of the tour you'll realize how truly awesome, Assam is!`,
     places: `Manas National Park`,
     gallery: [{
-      type: 'video',
-      video: 'https://www.youtube.com/embed/sc9HsSW31Zc'
-    },
-    {
       type: 'image',
       image: './packages/large/Manas-national-park.jpg'
+    },
+      {
+      type: 'video',
+      video: 'https://www.youtube.com/embed/sc9HsSW31Zc'
     },
     {
       type: 'image',
@@ -241,12 +241,12 @@ const packages = {
     making it a perfect place to take your perfect partner for life. Happiness Guaranteed!`,
     places: `Gangtok, Tsomgo Lake/Changu Lake`,
     gallery: [{
-      type: 'video',
-      video: 'https://www.youtube.com/embed/He30qWhDnig'
-    },
-    {
       type: 'image',
       image: './packages/large/sikkim-honeymoon-1.jpg'
+    },
+      {
+      type: 'video',
+      video: 'https://www.youtube.com/embed/He30qWhDnig'
     },
     {
       type: 'image',
@@ -273,12 +273,12 @@ const packages = {
     landscapes. `,
     places: `Nameri, Bomdila, Tawang, Dirang`,
     gallery: [{
-      type: 'video',
-      video: 'https://www.youtube.com/embed/u5q6UDZ4_BM'
-    },
-    {
       type: 'image',
       image: './packages/large/ap1.jpg'
+    },
+      {
+      type: 'video',
+      video: 'https://www.youtube.com/embed/u5q6UDZ4_BM'
     },
     {
       type: 'image',
@@ -312,13 +312,14 @@ const packages = {
     treks in the country. Home to the fabled Dzukou Lily, the enthralling trek will take you
     through an unforgettable experience! Perfect for breaking the monotony of life.`,
     places: `Kohima, Dzukou Valley`,
-    gallery: [{
+    gallery: [
+      {
+        type: 'image',
+        image: './packages/large/nag1.jpg'
+      },
+      {
       type: 'video',
       video: 'https://www.youtube.com/embed/CTR3BTl_er4'
-    },
-    {
-      type: 'image',
-      image: './packages/large/nag1.jpg'
     },
     {
       type: 'image',

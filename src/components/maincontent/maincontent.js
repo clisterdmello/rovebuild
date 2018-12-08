@@ -9,43 +9,43 @@ const favPackages = [
     url: '../package/ArunachalPradesh/Explore Tawang',
     image: './packages/icons/ap1.jpg',
     name: 'Exploring Tawang',
-    location: 'in Arunachal Pradesh',
-    duration: ' 5 Nights and 6 Days'
+    location: 'in Arunachal Pradesh (5N & 6D)',
+    duration: ''
   },
   {
     url: '../package/Nagaland/Trek Route To Valley Of Flower',
     image: './packages/icons/nag1.jpg',
     name: 'Trek Route to Valley of Flower',
-    location: 'in Nagaland',
-    duration: ' 4 Nights and 5 Days'
+    location: 'in Nagaland (4N & 5D)',
+    duration: ''
   },
   {
     url: '../package/Meghalaya/Weekender Special',
     image: './packages/icons/NH7_weekender.jpg',
     name: 'Weekender Special 1-6 November ',
-    location: 'in Meghalaya',
-    duration: ' 6 Nights and 7 Days'
+    location: 'in Meghalaya (6N & 7D)',
+    duration: ''
   },
   {
     url: '../package/Assam/Rover Adventurer Package',
     image: './packages/icons/assam.jpg',
     name: 'Rover Adventurer Package',
-    location: 'in Assam & Meghalaya',
-    duration: ' 5 Nights and 6 Days'
+    location: 'in Assam & Meghalaya (5N & 6D)',
+    duration: ''
   },
   {
     url: '../package/Meghalaya/Explore Meghalaya',
     image: './packages/icons/Cherrapunji.jpg',
     name: 'Explore Meghalaya',
-    location: '',
-    duration: ' 2 Nights and 3 Days'
+    location: '(2N & 3D)',
+    duration: ''
   },
   {
     url: '../package/Assam/Manas Safari Package',
     image: './packages/icons/Manas-national-park.jpg',
     name: 'Manas Safari package',
-    location: 'in Assam',
-    duration: ' 2 Nights and 3 Days'
+    location: 'in Assam (2N & 3D)',
+    duration: ''
   }
 ]
 
