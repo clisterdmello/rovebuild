@@ -8,22 +8,27 @@
     z-index: 1;
 }
 .leftArrow, .rightArrow {
-    background: #ffffff57;
     position: absolute;
     width: auto;
     cursor: pointer;
-    font-size: 24px;
-    color: #202521;
+    font-size: 27px;
+    color: #FFF;
     z-index: 2;
-    padding: 4% 0.4%;
-    border-radius: 0 4px 4px 0;
     top: 48%;
+    padding: 18px;
 }
 
 .leftArrow span, .rightArrow span{
     position: relative;
     top: 33%;
-    text-shadow: 1px 1px 2px #f5ffdf;
+    background: #ffffff4f;
+    border-radius: 26px;
+    padding: 15px;
+    padding-top: 7px;
+    color: #ffffff;
+    padding-bottom: 9px;
+    padding-right: 17px;
+    font-weight: bold;
 }
 .rightArrow{right:0}
 .carousal .carousalBody *{

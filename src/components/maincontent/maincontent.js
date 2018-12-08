@@ -119,7 +119,7 @@ class MainContent extends React.Component {
         </div>
       </div>
       <div id="needHelp" className="container">
-        <h2 className="center"><span className="borderBtm">Contact Us</span></h2>
+        <h2 className="center m0"><span className="borderBtm">Contact Us</span></h2>
         <div id="contactmeans">
           <section className="row">
             <div className="enquiryWrapper col-lg-4 col-lg-offset-2 col-md-4 col-lg-offset-2  col-sm-6 col-xs-12">
