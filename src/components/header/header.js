@@ -30,7 +30,7 @@ class Header extends React.Component {
                     <img className="logo" src={require('../../assets/logo.png')} />
                 </NavbarBrand>
                 <NavbarToggler onClick={this.toggle} className="pull-right visible-xs-inline col-xs-2" />
-                <Collapse isOpen={this.state.isOpen} navbar className="col-xs-12 col-sm-1 pull-right m0" >
+                <Collapse isOpen={this.state.isOpen} navbar className="col-xs-12 col-sm-1 pull-right" >
                     <Nav navbar>
                         <NavItem className="helpLine helpline-title">
                             <span>Call to book </span>
