@@ -24,7 +24,7 @@ class Header extends React.Component {
         });
     }
     render() {
-        return (<div id="header" >
+        return (<div id="header" style={{backgroundColor:this.state.isOpen?'#fff':''}} >
             <Navbar color="light" light expand="md">
                 <NavbarBrand href='/' className="col-xs-10 col-sm-3 col-md-3 col-lg-2" >
                     <img className="logo" src={require('../../assets/logo.png')} />
