@@ -98,11 +98,15 @@ class MainContent extends React.Component {
         <div className="packageContainer row">
           {
             favPackages.map((unit, index) => {
-              return <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12" key={index} title={unit.location + ' ' + unit.name}>
+              return <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12" 
+                          key={index}
+                          title={unit.location + ' ' + unit.name}>
                 <Link to={unit.url}>
-                  <p className="col-lg-4 col-md-4 col-sm-6 col-xs-12"><span>{unit.name} {unit.location}</span><span>{unit.duration}</span></p>
-                  <img src={pathToPachageImages(unit.image, true)} alt={unit.location + unit.name} />          
-                  
+                    <img src={pathToPachageImages(unit.image, true)} alt={unit.location + unit.name} />          
+                    <p>
+                    <span>{unit.name} {unit.location}</span>
+                    <span>{unit.duration}</span>
+                  </p>                  
                 </Link>
               </div>
             })}

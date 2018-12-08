@@ -206,14 +206,46 @@ footer {
 
 .packageContainer div p {
     margin: 0;
-    position: absolute;
-    width: 67%;
-    bottom: 0;
     padding: 0;
-    border-radius: 0 16px 0 0;
-    overflow: hidden;
+    position: absolute;
+    width: 80%;
+    bottom: 0;
 }
+@media (min-width: 768px) {
+    .packageContainer div p {
+        z-index: 0;
+        opacity: 0;
+        padding: 0 15px;  
+    }
+    .packageContainer div:hover p{
+        animation-name: bounceIn;
+        animation-duration: 450ms;
+        animation-timing-function: linear;
+        top: 100px;
+        z-index: 1;
+        opacity:1;    
+    }
 
+
+@keyframes bounceIn{
+    0%{
+      top: 0;
+      transform: scale(0.6);
+      opacity: 0.3;
+    }
+    50%{
+     
+      top: 30px;
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    100%{
+        top: 100px;
+        transform: scale(1) ;
+        opacity:1;
+      }
+  }
+}
 .packageContainer div span {
     background: #2f4a54;
     padding: 8px;
@@ -565,4 +597,6 @@ footer {
     .searchResults {
         margin-bottom: 0;
     }
+
+    
 }
