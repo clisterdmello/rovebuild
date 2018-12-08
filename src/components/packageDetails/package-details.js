@@ -421,7 +421,7 @@ class PackageDetails extends React.Component {
           </div>
 
         </section>
-        <footer>
+        <footer class="hidden-xs">
           <div id="callMeBack"
             onClick={() => { window.scroll(0, window.document.body.offsetHeight) }}>
             Want us to call you
